@@ -1,4 +1,27 @@
-# FireShell [![Build Status](https://travis-ci.org/toddmotto/fireshell.png)](https://travis-ci.org/toddmotto/fireshell)
+# Foundation Base Boilerplate [![Build Status](https://travis-ci.org/toddmotto/fireshell.png)](https://travis-ci.org/toddmotto/fireshell)
+
+Based on the Fireshell boilerplate framework, but augmented with Zurb Foundation. Variables are now in the src/scss/vendor/foundation/_variables.scss file, and overrides are in the src/scss file itself.
+
+Any conflicting normalizers have been commented out of the import.
+
+##I want to run a dynamic website (e.g. using PHP)
+
+The Gruntfile will compile your SCSS files to a single CSS one (saving on HTTP requests). It'll also minify and concat stuff, so you're ready for production.
+The build-in Grunt server doesn't play nice with PHP files, so you'll have to link your existing local server (MAMP, XAMP etc.) into the app/ directory to get going.
+If you're using static files, you can rename index.php to index.html, and use the built-in Fireshell .command scripts.
+
+##What's next?
+
+I'll be working on getting LiveReload going with dynamic servers (at current it's injected into the HTML, so this isn't a big fix). After that, I'll work on more generally integrating this frontend boilerplate with the Laravel 4 framework and some sort of CMS. Any help would be much appreciated:
+
+Fork it.
+Change it.
+Checkout.
+Pull request.
+
+Boom.
+
+##Fireshell docs
 
 Fiercely quick front-end boilerplate and workflows.
 
