@@ -12,8 +12,8 @@
 // Config modules
 @import 'modules/_vars.scss';
 @import 'modules/_clearfix.scss';
-@import 'modules/_normalize.scss';
-@import 'modules/_defaults.scss';
+// @import 'modules/_normalize.scss';
+// @import 'modules/_defaults.scss';
 
 // Objects and modules
 @import 'modules/_buttons.scss';
@@ -43,3 +43,9 @@
 //----------------------------------*/
 
 @import 'vendor/_external.scss';
+
+//----------------------------------*\
+// OVERRIDES
+//----------------------------------*/
+
+@import 'overrides.scss';

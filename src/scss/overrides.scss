@@ -1,0 +1,115 @@
+/*overrides*/
+
+
+.live-tile {
+	@media screen and (min-width : $mobile-screen) {
+	  margin:12px auto;
+	}
+	@media screen and (min-width : $small-screen) {
+	  margin:12px;
+	}
+
+}
+
+/*all tiles*/
+
+.tiles.tile-group {
+	@media screen and (min-width : 480px) {
+	  width: $mobile-screen;
+	}
+	@media screen and (min-width : 768px) {
+	  width: $small-screen;
+	}
+	@media screen and (min-width : 1280px) {
+	  width: $medium-screen;
+	}
+	@media screen and (min-width : $large-screen) {
+	  width: 1280px;
+	}
+	@media screen and (min-width : $hd-screen) {
+	  width: 1600px;
+	}
+	@media screen and (min-width : $almostimac-screen) {
+	  width: 1920px;
+	}
+}
+
+/*logo*/
+
+.logo {
+	float:left;
+}
+
+/*filters*/
+
+.filters {
+	
+}
+
+/*testimonials tile*/
+
+.testimonials {
+	clear:both;
+}
+
+/*welcome tile*/
+
+.welcome {
+
+}
+
+/*getting_there tile*/
+
+.getting_there {
+	
+}
+
+/*visitor_tickets tile*/
+
+.visitor_tickets {
+	
+}
+
+/*exhibitor_stand_space tile*/
+
+.exhibitor_stand_space {
+	
+}
+
+/*news tile*/
+
+.news {
+	
+}
+
+/*social tile*/
+
+.social {
+	
+}
+
+/*contact tile*/
+
+.contact {
+	
+}
+
+/*about tile*/
+
+.about {
+	
+}
+
+/*contractors tile*/
+
+.contractors {
+	
+}
+
+/*image tiles*/
+
+.filler_image {
+	
+}
+
+/*general overrides*/

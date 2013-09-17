@@ -1,0 +1,372 @@
+.live-tile,.list-tile,.copy-tile,.tile-strip .flip-list>li{height: 325px;margin:20px;outline:1px solid transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0px;width:300px;}.live-tile.half-tile,.list-tile.half-tile,.copy-tile.half-tile,.tile-strip .flip-list>li.half-tile{height:130px;width:130px;}
+.live-tile.half-wide,.list-tile.half-wide,.copy-tile.half-wide,.tile-strip .flip-list>li.half-wide{width:130px;}
+.live-tile.two-wide,.list-tile.two-wide,.copy-tile.two-wide,.tile-strip .flip-list>li.two-wide{width:640px;}
+.live-tile.three-wide,.list-tile.three-wide,.copy-tile.three-wide,.tile-strip .flip-list>li.three-wide{width:980px;}
+.live-tile.four-wide,.list-tile.four-wide,.copy-tile.four-wide,.tile-strip .flip-list>li.four-wide{width:1320px;}
+.live-tile.five-wide,.list-tile.five-wide,.copy-tile.five-wide,.tile-strip .flip-list>li.five-wide{width:1660px;}
+.live-tile.six-wide,.list-tile.six-wide,.copy-tile.six-wide,.tile-strip .flip-list>li.six-wide{width:2000px;}
+.live-tile.seven-wide,.list-tile.seven-wide,.copy-tile.seven-wide,.tile-strip .flip-list>li.seven-wide{width:2340px;}
+.live-tile.eight-wide,.list-tile.eight-wide,.copy-tile.eight-wide,.tile-strip .flip-list>li.eight-wide{width:2680px;}
+.live-tile.nine-wide,.list-tile.nine-wide,.copy-tile.nine-wide,.tile-strip .flip-list>li.nine-wide{width:3020px;}
+.live-tile.ten-wide,.list-tile.ten-wide,.copy-tile.ten-wide,.tile-strip .flip-list>li.ten-wide{width:3360px;}
+.live-tile.quarter-tall,.list-tile.quarter-tall,.copy-tile.quarter-tall,.tile-strip .flip-list>li.quarter-tall{height: 73px;}
+
+.live-tile.half-tall,.list-tile.half-tall,.copy-tile.half-tall,.tile-strip .flip-list>li.half-tall{height: 155px;}
+.live-tile.two-tall,.list-tile.two-tall,.copy-tile.two-tall,.tile-strip .flip-list>li.two-tall{height:640px;}
+.live-tile.three-tall,.list-tile.three-tall,.copy-tile.three-tall,.tile-strip .flip-list>li.three-tall{height:980px;}
+.live-tile.four-tall,.list-tile.four-tall,.copy-tile.four-tall,.tile-strip .flip-list>li.four-tall{height:1320px;}
+.live-tile.five-tall,.list-tile.five-tall,.copy-tile.five-tall,.tile-strip .flip-list>li.five-tall{height:1660px;}
+.live-tile.six-tall,.list-tile.six-tall,.copy-tile.six-tall,.tile-strip .flip-list>li.six-tall{height:2000px;}
+.live-tile.seven-tall,.list-tile.seven-tall,.copy-tile.seven-tall,.tile-strip .flip-list>li.seven-tall{height:2340px;}
+.live-tile.eight-tall,.list-tile.eight-tall,.copy-tile.eight-tall,.tile-strip .flip-list>li.eight-tall{height:2680px;}
+.live-tile.nine-tall,.list-tile.nine-tall,.copy-tile.nine-tall,.tile-strip .flip-list>li.nine-tall{height:3020px;}
+.live-tile.ten-tall,.list-tile.ten-tall,.copy-tile.ten-tall,.tile-strip .flip-list>li.ten-tall{height:3360px;}
+.live-tile>.flip-list,.list-tile>.flip-list{height:100%;width:100%;}
+.flip-list>li{height:100px;margin:0px;padding:0px;width:100px;}
+.flip-list.fourTiles>li{border:none;padding:0;margin:0;height:50%;width:50%;}
+.flip-list.nineTiles>li{height:33%;width:33%;border:none;padding:0;margin:0;}
+.flip-list.fourTiles>li>div,.flip-list.fourTiles>li>div>a,.flip-list.fourTiles>li>div>img,.flip-list.nineTiles>li>div,.flip-list.nineTiles>li>div>a,.flip-list.nineTiles>li>div>img{border:none;height:100%;width:100%;padding:0;margin:0;}
+.fourTiles .fourTiles1 img,.fourTiles img.fourTiles1,.fourTiles .fourTiles1 a,.fourTiles .tile-1 img,.fourTiles .tile-1 a{background-position:0px 0px;}
+.fourTiles .fourTiles2 img,.fourTiles img.fourTiles2,.fourTiles .fourTiles2 a,.fourTiles .tile-2 img,.fourTiles .tile-2 a{background-position:-150px 0px;}
+.fourTiles .fourTiles3 img,.fourTiles img.fourTiles3,.fourTiles .fourTiles3 a,.fourTiles .tile-3 img,.fourTiles .tile-3 a{background-position:0px -150px;}
+.fourTiles .fourTiles4 img,.fourTiles img.fourTiles4,.fourTiles .fourTiles4 a,.fourTiles .tile-4 img,.fourTiles .tile-4 a{background-position:-150px -150px;}
+.nineTiles .nineTiles1 img,.nineTiles img.nineTiles1,.nineTiles .nineTiles1 a,.nineTiles .tile-1 img,.nineTiles .tile-1 a{background-position:0px 0px;}
+.nineTiles .nineTiles2 img,.nineTiles img.nineTiles2,.nineTiles .nineTiles2 a,.nineTiles .tile-2 img,.nineTiles .tile-2 a{background-position:-100px 0px;}
+.nineTiles .nineTiles3 img,.nineTiles img.nineTiles3,.nineTiles .nineTiles3 a,.nineTiles .tile-3 img,.nineTiles .tile-3 a{background-position:-200px 0px;}
+.nineTiles .nineTiles4 img,.nineTiles img.nineTiles4,.nineTiles .nineTiles4 a,.nineTiles .tile-4 img,.nineTiles .tile-4 a{background-position:0px -100px;}
+.nineTiles .nineTiles5 img,.nineTiles img.nineTiles5,.nineTiles .nineTiles5 a,.nineTiles .tile-5 img,.nineTiles .tile-5 a{background-position:-100px -100px;}
+.nineTiles .nineTiles6 img,.nineTiles img.nineTiles6,.nineTiles .nineTiles6 a,.nineTiles .tile-6 img,.nineTiles .tile-6 a{background-position:-200px -100px;}
+.nineTiles .nineTiles7 img,.nineTiles img.nineTiles7,.nineTiles .nineTiles7 a,.nineTiles .tile-7 img,.nineTiles .tile-7 a{background-position:0px -200px;}
+.nineTiles .nineTiles8 img,.nineTiles img.nineTiles8,.nineTiles .nineTiles8 a,.nineTiles .tile-8 img,.nineTiles .tile-8 a{background-position:-100px -200px;}
+.nineTiles .nineTiles9 img,.nineTiles img.nineTiles9,.nineTiles .nineTiles9 a,.nineTiles .tile-9 img,.nineTiles .tile-9 a{background-position:-200px -200px;}
+.tile-group,.tile-strip{display:block;overflow:hidden;position:relative;z-index:20;-webkit-perspective:800px;-moz-perspective:800px;-ms-perspective:800px;perspective:800px;}.tile-group.one-tile,.tile-strip.one-tile{height:340px;width:340px;}
+.tile-group.half-wide,.tile-strip.half-wide{width:170px;}
+.tile-group.one-wide,.tile-strip.one-wide{width:340px;}
+.tile-group.two-wide,.tile-strip.two-wide{width:680px;}
+.tile-group.three-wide,.tile-strip.three-wide{width:1020px;}
+.tile-group.four-wide,.tile-strip.four-wide{width:1360px;}
+.tile-group.five-wide,.tile-strip.five-wide{width:1700px;}
+.tile-group.six-wide,.tile-strip.six-wide{width:2040px;}
+.tile-group.seven-wide,.tile-strip.seven-wide{width:2380px;}
+.tile-group.eight-wide,.tile-strip.eight-wide{width:2720px;}
+.tile-group.nine-wide,.tile-strip.nine-wide{width:3060px;}
+.tile-group.ten-wide,.tile-strip.ten-wide{width:3400px;}
+.tile-group.half-tall,.tile-strip.half-tall{height:170px;}
+.tile-group.one-tall,.tile-strip.one-tall{height:340px;}
+.tile-group.two-tall,.tile-strip.two-tall{height:680px;}
+.tile-group.three-tall,.tile-strip.three-tall{height:1020px;}
+.tile-group.four-tall,.tile-strip.four-tall{height:1360px;}
+.tile-group.five-tall,.tile-strip.five-tall{height:1700px;}
+.tile-group.six-tall,.tile-strip.six-tall{height:2040px;}
+.tile-group.seven-tall,.tile-strip.seven-tall{height:2380px;}
+.tile-group.eight-tall,.tile-strip.eight-tall{height:2720px;}
+.tile-group.nine-tall,.tile-strip.nine-tall{height:3060px;}
+.tile-group.ten-tall,.tile-strip.ten-tall{height:3400px;}
+.tile-strip,.live-tile,.list-tile,.copy-tile,.slide{float:left;}.tile-strip.bounce,.live-tile.bounce,.list-tile.bounce,.copy-tile.bounce,.slide.bounce{cursor:pointer;outline:1px solid transparent;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-transition:all .2s ease;-moz-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease;-webkit-transform:scale(1);-ms-transform:scale(1);-moz-transform:scale(1);-o-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;-moz-transform-origin:50% 50%;-ms-transform-origin:50% 50%;-o-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;backface-visibility:hidden;}.tile-strip.bounce.bounce-c,.live-tile.bounce.bounce-c,.list-tile.bounce.bounce-c,.copy-tile.bounce.bounce-c,.slide.bounce.bounce-c{filter:progid:DXImageTransform.Microsoft.Matrix(M11=0.95, M12=0, M21=0, M22=0.95);-webkit-transform:scale(0.95);-ms-transform:scale(0.95);-moz-transform:scale(0.95);-o-transform:scale(0.95);transform:scale(0.95);}
+.tile-strip.bounce.bounce-t,.live-tile.bounce.bounce-t,.list-tile.bounce.bounce-t,.copy-tile.bounce.bounce-t,.slide.bounce.bounce-t{-webkit-transform:rotateX(20deg);-ms-transform:rotateX(20deg);-moz-transform:rotateX(20deg);-o-transform:rotateX(20deg);transform:rotateX(20deg);-webkit-transform-origin:0% 100%;-moz-transform-origin:0% 100%;-ms-transform-origin:0% 100%;-o-transform-origin:0% 100%;transform-origin:0% 100%;}
+.tile-strip.bounce.bounce-b,.live-tile.bounce.bounce-b,.list-tile.bounce.bounce-b,.copy-tile.bounce.bounce-b,.slide.bounce.bounce-b{-webkit-transform:rotateX(-20deg);-ms-transform:rotateX(-20deg);-moz-transform:rotateX(-20deg);-o-transform:rotateX(-20deg);transform:rotateX(-20deg);-webkit-transform-origin:50% 0%;-moz-transform-origin:50% 0%;-ms-transform-origin:50% 0%;-o-transform-origin:50% 0%;transform-origin:50% 0%;}
+.tile-strip.bounce.bounce-r,.live-tile.bounce.bounce-r,.list-tile.bounce.bounce-r,.copy-tile.bounce.bounce-r,.slide.bounce.bounce-r{-webkit-transform:rotateY(20deg);-ms-transform:rotateY(20deg);-moz-transform:rotateY(20deg);-o-transform:rotateY(20deg);transform:rotateY(20deg);-webkit-transform-origin:0% 50%;-moz-transform-origin:0% 50%;-ms-transform-origin:0% 50%;-o-transform-origin:0% 50%;transform-origin:0% 50%;}
+.tile-strip.bounce.bounce-l,.live-tile.bounce.bounce-l,.list-tile.bounce.bounce-l,.copy-tile.bounce.bounce-l,.slide.bounce.bounce-l{-webkit-transform:rotateY(-20deg);-ms-transform:rotateY(-20deg);-moz-transform:rotateY(-20deg);-o-transform:rotateY(-20deg);transform:rotateY(-20deg);-webkit-transform-origin:100% 50%;-moz-transform-origin:100% 50%;-ms-transform-origin:100% 50%;-o-transform-origin:100% 50%;transform-origin:100% 50%;}
+.tile-strip.bounce.bounce-tl,.live-tile.bounce.bounce-tl,.list-tile.bounce.bounce-tl,.copy-tile.bounce.bounce-tl,.slide.bounce.bounce-tl{-webkit-transform:rotateX(10deg) rotateY(-10deg);-ms-transform:rotateX(10deg) rotateY(-10deg);-moz-transform:rotateX(10deg) rotateY(-10deg);-o-transform:rotateX(10deg) rotateY(-10deg);transform:rotateX(10deg) rotateY(-10deg);}
+.tile-strip.bounce.bounce-tr,.live-tile.bounce.bounce-tr,.list-tile.bounce.bounce-tr,.copy-tile.bounce.bounce-tr,.slide.bounce.bounce-tr{-webkit-transform:rotateX(10deg) rotateY(10deg);-ms-transform:rotateX(10deg) rotateY(10deg);-moz-transform:rotateX(10deg) rotateY(10deg);-o-transform:rotateX(10deg) rotateY(10deg);transform:rotateX(10deg) rotateY(10deg);}
+.tile-strip.bounce.bounce-bl,.live-tile.bounce.bounce-bl,.list-tile.bounce.bounce-bl,.copy-tile.bounce.bounce-bl,.slide.bounce.bounce-bl{-webkit-transform:rotateX(-10deg) rotateY(-10deg);-ms-transform:rotateX(-10deg) rotateY(-10deg);-moz-transform:rotateX(-10deg) rotateY(-10deg);-o-transform:rotateX(-10deg) rotateY(-10deg);transform:rotateX(-10deg) rotateY(-10deg);}
+.tile-strip.bounce.bounce-br,.live-tile.bounce.bounce-br,.list-tile.bounce.bounce-br,.copy-tile.bounce.bounce-br,.slide.bounce.bounce-br{-webkit-transform:rotateX(-10deg) rotateY(10deg);-ms-transform:rotateX(-10deg) rotateY(10deg);-moz-transform:rotateX(-10deg) rotateY(10deg);-o-transform:rotateX(-10deg) rotateY(10deg);transform:rotateX(-10deg) rotateY(10deg);}
+.live-tile,.list-tile,.copy-tile{color:#fff;overflow:hidden;position:relative;z-index:20;display: block;margin: 20px auto;}.live-tile p,.list-tile p,.copy-tile p,.live-tile .face,.list-tile .face,.copy-tile .face{display:block;font-size:1em;line-height:1.2em;margin:0;}
+.live-tile .face,.list-tile .face,.copy-tile .face{padding:0px;}
+.live-tile p,.list-tile p,.copy-tile p{padding:10px;}
+.live-tile.half-tile p,.list-tile.half-tile p,.copy-tile.half-tile p{padding:5px;}
+.live-tile .face.full,.list-tile .face.full,.copy-tile .face.full{height:100%;width:100%;}
+.live-tile img,.list-tile img,.copy-tile img{border:none;}
+.live-tile .tile-title,.list-tile .tile-title,.copy-tile .tile-title{position:absolute;bottom:0px;font-size:12px;left:0px;padding:0 0 6px 2%;text-decoration:none;width:98%;z-index:30;}
+.live-tile a,.list-tile a,.copy-tile a{color:#fff;}.live-tile a.tile-title:link,.list-tile a.tile-title:link,.copy-tile a.tile-title:link,.live-tile a.tile-title:visited,.list-tile a.tile-title:visited,.copy-tile a.tile-title:visited,.live-tile a.tile-title:hover,.list-tile a.tile-title:hover,.copy-tile a.tile-title:hover,.live-tile a.tile-title,.list-tile a.tile-title,.copy-tile a.tile-title{text-decoration:none;}
+.live-tile a:link,.list-tile a:link,.copy-tile a:link,.live-tile a:visited,.list-tile a:visited,.copy-tile a:visited{color:#fff;text-decoration:underline;}
+.live-tile a:hover,.list-tile a:hover,.copy-tile a:hover{color:#fff;text-decoration:none;}
+.light .copy-tile{color:#000;}.light .copy-tile.accent{color:#fff;}.light .copy-tile.accent a,.light .copy-tile.accent a:link,.light .copy-tile.accent a:visited,.light .copy-tile.accent a:hover{color:#fff;}
+.light .copy-tile a,.light .copy-tile a:link,.light .copy-tile a:visited,.light .copy-tile a:hover{color:#000;}
+.light .copy-tile .face,.light .copy-tile .accent{color:#fff;}.light .copy-tile .face a,.light .copy-tile .accent a,.light .copy-tile .face a:link,.light .copy-tile .accent a:link,.light .copy-tile .face a:visited,.light .copy-tile .accent a:visited,.light .copy-tile .face a:hover,.light .copy-tile .accent a:hover{color:#fff;}
+.copy-tile p{padding:5px 5px 0px 5px;font-size:.95em;}
+.noselect>div,.noselect>.slide,.noselect>.slide-front,.noselect>.slide-back,.noselect>.fade-front,.noselect>.fade-back,.noselect>.flip-front,.noselect>.flip-back{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.live-tile>div,.list-tile>div,.live-tile>.slide,.carousel>.slide,.live-tile>.slide-front,.live-tile>.slide-back,.live-tile>.fade-front,.live-tile>.fade-back,.live-tile>.flip-front,.live-tile>.flip-back{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;top:0px;left:0px;margin:0px;height:100%;width:100%;overflow:hidden;position:absolute;z-index:20;}
+.list-tile>div{position:relative;background-color:transparent;}
+img.full,a.full,.live-tile .full,.list-tile .full{display:block;margin:0px;height:100%;text-decoration:none;width:100%;}
+.live-tile>.back,.live-tile>.slide-back,.live-tile>.fade-back,.live-tile>.flip-back,.flip-list .flip-back{position:absolute;z-index:10;}
+.flip-list{padding:0px;margin:0px;}
+.list-tile .flip-list{height:100%;width:100%;}
+.flip-list>li>a{border:none;outline:none;text-decoration:none;margin:0px;padding:0px;height:100%;width:100%;}
+.flip-list>li img{border:none;outline:none;height:100%;margin:0px;padding:0px;width:100%;}
+.flip-list>li{float:left;list-style-type:none;outline:none;position:relative;}
+.flip-list>li>div{border:none;background:white;height:100%;left:0px;margin:0px;overflow:hidden;position:absolute;padding:0px;top:0px;width:100%;z-index:20;}
+.flip-list>li>div.flip-back{height:0px;}
+.live-tile.flip.ha,.flip-list.ha{position:relative;overflow:hidden;}
+.live-tile.flip .ha.flip-front,.flip-list .ha.flip-front,.live-tile.flip .ha.flip-back,.flip-list .ha.flip-back{position:absolute;z-index:20;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;backface-visibility:hidden;}
+.flip-list>li>.ha.flip-back,.flip-list>li>.ha.flip-back img{margin:0px !important;height:100%;}
+.metroBig,.metroExtraLarge,.face.metroBig,.face.metroExtraLarge,.live-tile .metroExtraLarge{font-size:2em;line-height:1.1em;}a.metroBig:link,a.metroExtraLarge:link,a.face.metroBig:link,a.face.metroExtraLarge:link,a.live-tile .metroExtraLarge:link{text-decoration:none;}
+.metroLarger,.face.metroLarger,.live-tile .metroLarger{font-size:1.5em;line-height:1.1em;}a.metroLarger:link,a.face.metroLarger:link,a.live-tile .metroLarger:link{text-decoration:none;}
+.metroLarge,.face.metroLarge,.live-tile .metroLarge{font-size:1.2em;line-height:1.1em;}a.metroLarge:link,a.face.metroLarge:link,a.live-tile .metroLarge:link{text-decoration:none;}
+.metroSmall,.face.metroSmall,.live-tile .metroSmall{font-size:.9em;line-height:1em;}a.metroSmall:link,a.face.metroSmall:link,a.live-tile .metroSmall:link{text-decoration:none;}
+.metroSmaller,.face.metroSmaller,.live-tile .metroSmaller{font-size:.8em;line-height:1em;}a.metroSmaller:link,a.face.metroSmaller:link,a.live-tile .metroSmaller:link{text-decoration:none;}
+.metroExtraSmall,.face.metroExtraSmall,.live-tile .metroExtraSmall{font-size:.7em;line-height:1em;}a.metroExtraSmall:link,a.face.metroExtraSmall:link,a.live-tile .metroExtraSmall:link{text-decoration:none;}
+.live-tile.me .metroBig,.live-tile .bottom{display:block;position:absolute;left:10px;bottom:10px;padding:0;text-decoration:none;}
+.live-tile.half-tile .bottom{left:5px;}
+.light{background-color:#fff;color:#000;}
+.dark{background-color:#000;color:#fff;}
+.light.accent{background-color:#fff;}
+.dark.accent{background-color:#000;}
+.light .appbar{background-color:#dfdfdf;}
+.dark .appbar{background-color:#212021;}
+.trans .accent,.trans .live-tile>div,.trans .copy-tile>div,.trans .live-tile>.face,.trans .copy-tile>.face,.trans .live-tile>.slide,.trans .live-tile>.flip-back,.trans .live-tile>.flip-front,.trans .live-tile>.slide-back,.trans .live-tile>.slide-front,.trans .list-tile>div,.trans .flip-list>li>div{background-color:transparent;}
+.trans .accentColor,.trans .accentHover:hover,.trans .accentHover a:hover,.trans .accentLink a,.trans .accentLink a:hover,.trans .accentLink a:visited,.trans a.accentLink,.trans a.accentLink:hover,.trans a.accentLink:visited{color:transparent;}
+.trans .accentBorder{border-color:transparent;}
+.trans .accentBorderBottom{border-bottom-color:transparent;}
+.trans .accentBorderLeft{border-left-color:transparent;}
+.trans .accentBorderRight{border-right-color:transparent;}
+.trans .accentBorderTop{border-top-color:transparent;}
+.white .accent,.white .live-tile>div,.white .copy-tile>div,.white .live-tile>.face,.white .copy-tile>.face,.white .live-tile>.slide,.white .live-tile>.flip-back,.white .live-tile>.flip-front,.white .live-tile>.slide-back,.white .live-tile>.slide-front,.white .list-tile>div,.white .flip-list>li>div{background-color:#ffffff;}
+.white .accentColor,.white .accentHover:hover,.white .accentHover a:hover,.white .accentLink a,.white .accentLink a:hover,.white .accentLink a:visited,.white a.accentLink,.white a.accentLink:hover,.white a.accentLink:visited{color:#ffffff;}
+.white .accentBorder{border-color:#ffffff;}
+.white .accentBorderBottom{border-bottom-color:#ffffff;}
+.white .accentBorderLeft{border-left-color:#ffffff;}
+.white .accentBorderRight{border-right-color:#ffffff;}
+.white .accentBorderTop{border-top-color:#ffffff;}
+.black .accent,.black .live-tile>div,.black .copy-tile>div,.black .live-tile>.face,.black .copy-tile>.face,.black .live-tile>.slide,.black .live-tile>.flip-back,.black .live-tile>.flip-front,.black .live-tile>.slide-back,.black .live-tile>.slide-front,.black .list-tile>div,.black .flip-list>li>div{background-color:#000000;}
+.black .accentColor,.black .accentHover:hover,.black .accentHover a:hover,.black .accentLink a,.black .accentLink a:hover,.black .accentLink a:visited,.black a.accentLink,.black a.accentLink:hover,.black a.accentLink:visited{color:#000000;}
+.black .accentBorder{border-color:#000000;}
+.black .accentBorderBottom{border-bottom-color:#000000;}
+.black .accentBorderLeft{border-left-color:#000000;}
+.black .accentBorderRight{border-right-color:#000000;}
+.black .accentBorderTop{border-top-color:#000000;}
+html body .trans.accent,html body .trans.live-tile>.accent,html body .trans.list-tile>.accent,html body .trans.copy-tile>.accent,html body .trans.live-tile>div,html body .trans.copy-tile>div,html body .trans.list-tile>div,html body .trans.live-tile>.face,html body .trans.list-tile>.face,html body .trans.copy-tile>.face,html body .trans.live-tile>.slide,html body .trans.live-tile>.flip-back,html body .trans.live-tile>.flip-front,html body .trans.live-tile>.slide-back,html body .trans.live-tile>.slide-front,html body .trans.flip-list>li>.accent,html body .trans.flip-list>li>.flip-back,html body .trans.flip-list>li>.flip-front,html body .trans.slide.accent,html body .trans.slide-front.accent,html body .trans.slide-back.accent,html body .trans.flip-front.accent,html body .trans.flip-back.accent{background-color:transparent;}
+html body .trans.accentColor,html body .trans.accentHover:hover,html body .trans.accentHover a:hover,html body .trans.accentLink a,html body .trans.accentLink a:hover,html body .trans.accentLink a:visited,a.accentLinkhtml body .trans,a.accentLinkhtml body .trans:hover,a.accentLinkhtml body .trans:visited{color:transparent;}
+html body .trans.accentBorder{border-color:transparent;}
+html body .trans.accentBorderBottom{border-bottom-color:transparent;}
+html body .trans.accentBorderLeft{border-left-color:transparent;}
+html body .trans.accentBorderRight{border-right-color:transparent;}
+html body .trans.accentBorderTop{border-top-color:transparent;}
+html body .white.accent,html body .white.live-tile>.accent,html body .white.list-tile>.accent,html body .white.copy-tile>.accent,html body .white.live-tile>div,html body .white.copy-tile>div,html body .white.list-tile>div,html body .white.live-tile>.face,html body .white.list-tile>.face,html body .white.copy-tile>.face,html body .white.live-tile>.slide,html body .white.live-tile>.flip-back,html body .white.live-tile>.flip-front,html body .white.live-tile>.slide-back,html body .white.live-tile>.slide-front,html body .white.flip-list>li>.accent,html body .white.flip-list>li>.flip-back,html body .white.flip-list>li>.flip-front,html body .white.slide.accent,html body .white.slide-front.accent,html body .white.slide-back.accent,html body .white.flip-front.accent,html body .white.flip-back.accent{background-color:#ffffff;}
+html body .white.accentColor,html body .white.accentHover:hover,html body .white.accentHover a:hover,html body .white.accentLink a,html body .white.accentLink a:hover,html body .white.accentLink a:visited,a.accentLinkhtml body .white,a.accentLinkhtml body .white:hover,a.accentLinkhtml body .white:visited{color:#ffffff;}
+html body .white.accentBorder{border-color:#ffffff;}
+html body .white.accentBorderBottom{border-bottom-color:#ffffff;}
+html body .white.accentBorderLeft{border-left-color:#ffffff;}
+html body .white.accentBorderRight{border-right-color:#ffffff;}
+html body .white.accentBorderTop{border-top-color:#ffffff;}
+html body .black.accent,html body .black.live-tile>.accent,html body .black.list-tile>.accent,html body .black.copy-tile>.accent,html body .black.live-tile>div,html body .black.copy-tile>div,html body .black.list-tile>div,html body .black.live-tile>.face,html body .black.list-tile>.face,html body .black.copy-tile>.face,html body .black.live-tile>.slide,html body .black.live-tile>.flip-back,html body .black.live-tile>.flip-front,html body .black.live-tile>.slide-back,html body .black.live-tile>.slide-front,html body .black.flip-list>li>.accent,html body .black.flip-list>li>.flip-back,html body .black.flip-list>li>.flip-front,html body .black.slide.accent,html body .black.slide-front.accent,html body .black.slide-back.accent,html body .black.flip-front.accent,html body .black.flip-back.accent{background-color:#000000;}
+html body .black.accentColor,html body .black.accentHover:hover,html body .black.accentHover a:hover,html body .black.accentLink a,html body .black.accentLink a:hover,html body .black.accentLink a:visited,a.accentLinkhtml body .black,a.accentLinkhtml body .black:hover,a.accentLinkhtml body .black:visited{color:#000000;}
+html body .black.accentBorder{border-color:#000000;}
+html body .black.accentBorderBottom{border-bottom-color:#000000;}
+html body .black.accentBorderLeft{border-left-color:#000000;}
+html body .black.accentBorderRight{border-right-color:#000000;}
+html body .black.accentBorderTop{border-top-color:#000000;}
+.rabdfblue .accent,.rabdfblue .live-tile>div,.rabdfblue .copy-tile>div,.rabdfblue .live-tile>.face,.rabdfblue .copy-tile>.face,.rabdfblue .live-tile>.slide,.rabdfblue .live-tile>.flip-back,.rabdfblue .live-tile>.flip-front,.rabdfblue .live-tile>.slide-back,.rabdfblue .live-tile>.slide-front,.rabdfblue .list-tile>div,.rabdfblue .flip-list>li>div{background-color:#1daeec;}
+.rabdfblue .accentColor,.rabdfblue .accentHover:hover,.rabdfblue .accentHover a:hover,.rabdfblue .accentLink a,.rabdfblue .accentLink a:hover,.rabdfblue .accentLink a:visited,.rabdfblue a.accentLink,.rabdfblue a.accentLink:hover,.rabdfblue a.accentLink:visited{color:#1daeec;}
+.rabdfblue .accentBorder{border-color:#1daeec;}
+.rabdfblue .accentBorderBottom{border-bottom-color:#1daeec;}
+.rabdfblue .accentBorderLeft{border-left-color:#1daeec;}
+.rabdfblue .accentBorderRight{border-right-color:#1daeec;}
+.rabdfblue .accentBorderTop{border-top-color:#1daeec;}
+html body .rabdfblue.accent,html body .rabdfblue.live-tile>.accent,html body .rabdfblue.list-tile>.accent,html body .rabdfblue.copy-tile>.accent,html body .rabdfblue.live-tile>div,html body .rabdfblue.copy-tile>div,html body .rabdfblue.list-tile>div,html body .rabdfblue.live-tile>.face,html body .rabdfblue.list-tile>.face,html body .rabdfblue.copy-tile>.face,html body .rabdfblue.live-tile>.slide,html body .rabdfblue.live-tile>.flip-back,html body .rabdfblue.live-tile>.flip-front,html body .rabdfblue.live-tile>.slide-back,html body .rabdfblue.live-tile>.slide-front,html body .rabdfblue.flip-list>li>.accent,html body .rabdfblue.flip-list>li>.flip-back,html body .rabdfblue.flip-list>li>.flip-front,html body .rabdfblue.slide.accent,html body .rabdfblue.slide-front.accent,html body .rabdfblue.slide-back.accent,html body .rabdfblue.flip-front.accent,html body .rabdfblue.flip-back.accent{background-color:#1daeec;}
+html body .rabdfblue.accentColor,html body .rabdfblue.accentHover:hover,html body .rabdfblue.accentHover a:hover,html body .rabdfblue.accentLink a,html body .rabdfblue.accentLink a:hover,html body .rabdfblue.accentLink a:visited,a.accentLinkhtml body .rabdfblue,a.accentLinkhtml body .rabdfblue:hover,a.accentLinkhtml body .rabdfblue:visited{color:#1daeec;}
+html body .rabdfblue.accentBorder{border-color:#1daeec;}
+html body .rabdfblue.accentBorderBottom{border-bottom-color:#1daeec;}
+html body .rabdfblue.accentBorderLeft{border-left-color:#1daeec;}
+html body .rabdfblue.accentBorderRight{border-right-color:#1daeec;}
+html body .rabdfblue.accentBorderTop{border-top-color:#1daeec;}
+.rabdforange .accent,.rabdforange .live-tile>div,.rabdforange .copy-tile>div,.rabdforange .live-tile>.face,.rabdforange .copy-tile>.face,.rabdforange .live-tile>.slide,.rabdforange .live-tile>.flip-back,.rabdforange .live-tile>.flip-front,.rabdforange .live-tile>.slide-back,.rabdforange .live-tile>.slide-front,.rabdforange .list-tile>div,.rabdforange .flip-list>li>div{background-color:#f59331;}
+.rabdforange .accentColor,.rabdforange .accentHover:hover,.rabdforange .accentHover a:hover,.rabdforange .accentLink a,.rabdforange .accentLink a:hover,.rabdforange .accentLink a:visited,.rabdforange a.accentLink,.rabdforange a.accentLink:hover,.rabdforange a.accentLink:visited{color:#f59331;}
+.rabdforange .accentBorder{border-color:#f59331;}
+.rabdforange .accentBorderBottom{border-bottom-color:#f59331;}
+.rabdforange .accentBorderLeft{border-left-color:#f59331;}
+.rabdforange .accentBorderRight{border-right-color:#f59331;}
+.rabdforange .accentBorderTop{border-top-color:#f59331;}
+html body .rabdforange.accent,html body .rabdforange.live-tile>.accent,html body .rabdforange.list-tile>.accent,html body .rabdforange.copy-tile>.accent,html body .rabdforange.live-tile>div,html body .rabdforange.copy-tile>div,html body .rabdforange.list-tile>div,html body .rabdforange.live-tile>.face,html body .rabdforange.list-tile>.face,html body .rabdforange.copy-tile>.face,html body .rabdforange.live-tile>.slide,html body .rabdforange.live-tile>.flip-back,html body .rabdforange.live-tile>.flip-front,html body .rabdforange.live-tile>.slide-back,html body .rabdforange.live-tile>.slide-front,html body .rabdforange.flip-list>li>.accent,html body .rabdforange.flip-list>li>.flip-back,html body .rabdforange.flip-list>li>.flip-front,html body .rabdforange.slide.accent,html body .rabdforange.slide-front.accent,html body .rabdforange.slide-back.accent,html body .rabdforange.flip-front.accent,html body .rabdforange.flip-back.accent{background-color:#f59331;}
+html body .rabdforange.accentColor,html body .rabdforange.accentHover:hover,html body .rabdforange.accentHover a:hover,html body .rabdforange.accentLink a,html body .rabdforange.accentLink a:hover,html body .rabdforange.accentLink a:visited,a.accentLinkhtml body .rabdforange,a.accentLinkhtml body .rabdforange:hover,a.accentLinkhtml body .rabdforange:visited{color:#f59331;}
+html body .rabdforange.accentBorder{border-color:#f59331;}
+html body .rabdforange.accentBorderBottom{border-bottom-color:#f59331;}
+html body .rabdforange.accentBorderLeft{border-left-color:#f59331;}
+html body .rabdforange.accentBorderRight{border-right-color:#f59331;}
+html body .rabdforange.accentBorderTop{border-top-color:#f59331;}
+.rabdfpink .accent,.rabdfpink .live-tile>div,.rabdfpink .copy-tile>div,.rabdfpink .live-tile>.face,.rabdfpink .copy-tile>.face,.rabdfpink .live-tile>.slide,.rabdfpink .live-tile>.flip-back,.rabdfpink .live-tile>.flip-front,.rabdfpink .live-tile>.slide-back,.rabdfpink .live-tile>.slide-front,.rabdfpink .list-tile>div,.rabdfpink .flip-list>li>div{background-color:#d84f9a;}
+.rabdfpink .accentColor,.rabdfpink .accentHover:hover,.rabdfpink .accentHover a:hover,.rabdfpink .accentLink a,.rabdfpink .accentLink a:hover,.rabdfpink .accentLink a:visited,.rabdfpink a.accentLink,.rabdfpink a.accentLink:hover,.rabdfpink a.accentLink:visited{color:#d84f9a;}
+.rabdfpink .accentBorder{border-color:#d84f9a;}
+.rabdfpink .accentBorderBottom{border-bottom-color:#d84f9a;}
+.rabdfpink .accentBorderLeft{border-left-color:#d84f9a;}
+.rabdfpink .accentBorderRight{border-right-color:#d84f9a;}
+.rabdfpink .accentBorderTop{border-top-color:#d84f9a;}
+html body .rabdfpink.accent,html body .rabdfpink.live-tile>.accent,html body .rabdfpink.list-tile>.accent,html body .rabdfpink.copy-tile>.accent,html body .rabdfpink.live-tile>div,html body .rabdfpink.copy-tile>div,html body .rabdfpink.list-tile>div,html body .rabdfpink.live-tile>.face,html body .rabdfpink.list-tile>.face,html body .rabdfpink.copy-tile>.face,html body .rabdfpink.live-tile>.slide,html body .rabdfpink.live-tile>.flip-back,html body .rabdfpink.live-tile>.flip-front,html body .rabdfpink.live-tile>.slide-back,html body .rabdfpink.live-tile>.slide-front,html body .rabdfpink.flip-list>li>.accent,html body .rabdfpink.flip-list>li>.flip-back,html body .rabdfpink.flip-list>li>.flip-front,html body .rabdfpink.slide.accent,html body .rabdfpink.slide-front.accent,html body .rabdfpink.slide-back.accent,html body .rabdfpink.flip-front.accent,html body .rabdfpink.flip-back.accent{background-color:#d84f9a;}
+html body .rabdfpink.accentColor,html body .rabdfpink.accentHover:hover,html body .rabdfpink.accentHover a:hover,html body .rabdfpink.accentLink a,html body .rabdfpink.accentLink a:hover,html body .rabdfpink.accentLink a:visited,a.accentLinkhtml body .rabdfpink,a.accentLinkhtml body .rabdfpink:hover,a.accentLinkhtml body .rabdfpink:visited{color:#d84f9a;}
+html body .rabdfpink.accentBorder{border-color:#d84f9a;}
+html body .rabdfpink.accentBorderBottom{border-bottom-color:#d84f9a;}
+html body .rabdfpink.accentBorderLeft{border-left-color:#d84f9a;}
+html body .rabdfpink.accentBorderRight{border-right-color:#d84f9a;}
+html body .rabdfpink.accentBorderTop{border-top-color:#d84f9a;}
+.rabdfgreen .accent,.rabdfgreen .live-tile>div,.rabdfgreen .copy-tile>div,.rabdfgreen .live-tile>.face,.rabdfgreen .copy-tile>.face,.rabdfgreen .live-tile>.slide,.rabdfgreen .live-tile>.flip-back,.rabdfgreen .live-tile>.flip-front,.rabdfgreen .live-tile>.slide-back,.rabdfgreen .live-tile>.slide-front,.rabdfgreen .list-tile>div,.rabdfgreen .flip-list>li>div{background-color:#79b94a;}
+.rabdfgreen .accentColor,.rabdfgreen .accentHover:hover,.rabdfgreen .accentHover a:hover,.rabdfgreen .accentLink a,.rabdfgreen .accentLink a:hover,.rabdfgreen .accentLink a:visited,.rabdfgreen a.accentLink,.rabdfgreen a.accentLink:hover,.rabdfgreen a.accentLink:visited{color:#79b94a;}
+.rabdfgreen .accentBorder{border-color:#79b94a;}
+.rabdfgreen .accentBorderBottom{border-bottom-color:#79b94a;}
+.rabdfgreen .accentBorderLeft{border-left-color:#79b94a;}
+.rabdfgreen .accentBorderRight{border-right-color:#79b94a;}
+.rabdfgreen .accentBorderTop{border-top-color:#79b94a;}
+html body .rabdfgreen.accent,html body .rabdfgreen.live-tile>.accent,html body .rabdfgreen.list-tile>.accent,html body .rabdfgreen.copy-tile>.accent,html body .rabdfgreen.live-tile>div,html body .rabdfgreen.copy-tile>div,html body .rabdfgreen.list-tile>div,html body .rabdfgreen.live-tile>.face,html body .rabdfgreen.list-tile>.face,html body .rabdfgreen.copy-tile>.face,html body .rabdfgreen.live-tile>.slide,html body .rabdfgreen.live-tile>.flip-back,html body .rabdfgreen.live-tile>.flip-front,html body .rabdfgreen.live-tile>.slide-back,html body .rabdfgreen.live-tile>.slide-front,html body .rabdfgreen.flip-list>li>.accent,html body .rabdfgreen.flip-list>li>.flip-back,html body .rabdfgreen.flip-list>li>.flip-front,html body .rabdfgreen.slide.accent,html body .rabdfgreen.slide-front.accent,html body .rabdfgreen.slide-back.accent,html body .rabdfgreen.flip-front.accent,html body .rabdfgreen.flip-back.accent{background-color:#79b94a;}
+html body .rabdfgreen.accentColor,html body .rabdfgreen.accentHover:hover,html body .rabdfgreen.accentHover a:hover,html body .rabdfgreen.accentLink a,html body .rabdfgreen.accentLink a:hover,html body .rabdfgreen.accentLink a:visited,a.accentLinkhtml body .rabdfgreen,a.accentLinkhtml body .rabdfgreen:hover,a.accentLinkhtml body .rabdfgreen:visited{color:#79b94a;}
+html body .rabdfgreen.accentBorder{border-color:#79b94a;}
+html body .rabdfgreen.accentBorderBottom{border-bottom-color:#79b94a;}
+html body .rabdfgreen.accentBorderLeft{border-left-color:#79b94a;}
+html body .rabdfgreen.accentBorderRight{border-right-color:#79b94a;}
+html body .rabdfgreen.accentBorderTop{border-top-color:#79b94a;}
+.rabdfgray .accent,.rabdfgray .live-tile>div,.rabdfgray .copy-tile>div,.rabdfgray .live-tile>.face,.rabdfgray .copy-tile>.face,.rabdfgray .live-tile>.slide,.rabdfgray .live-tile>.flip-back,.rabdfgray .live-tile>.flip-front,.rabdfgray .live-tile>.slide-back,.rabdfgray .live-tile>.slide-front,.rabdfgray .list-tile>div,.rabdfgray .flip-list>li>div{background-color:#515153;}
+.rabdfgray .accentColor,.rabdfgray .accentHover:hover,.rabdfgray .accentHover a:hover,.rabdfgray .accentLink a,.rabdfgray .accentLink a:hover,.rabdfgray .accentLink a:visited,.rabdfgray a.accentLink,.rabdfgray a.accentLink:hover,.rabdfgray a.accentLink:visited{color:#515153;}
+.rabdfgray .accentBorder{border-color:#515153;}
+.rabdfgray .accentBorderBottom{border-bottom-color:#515153;}
+.rabdfgray .accentBorderLeft{border-left-color:#515153;}
+.rabdfgray .accentBorderRight{border-right-color:#515153;}
+.rabdfgray .accentBorderTop{border-top-color:#515153;}
+html body .rabdfgray.accent,html body .rabdfgray.live-tile>.accent,html body .rabdfgray.list-tile>.accent,html body .rabdfgray.copy-tile>.accent,html body .rabdfgray.live-tile>div,html body .rabdfgray.copy-tile>div,html body .rabdfgray.list-tile>div,html body .rabdfgray.live-tile>.face,html body .rabdfgray.list-tile>.face,html body .rabdfgray.copy-tile>.face,html body .rabdfgray.live-tile>.slide,html body .rabdfgray.live-tile>.flip-back,html body .rabdfgray.live-tile>.flip-front,html body .rabdfgray.live-tile>.slide-back,html body .rabdfgray.live-tile>.slide-front,html body .rabdfgray.flip-list>li>.accent,html body .rabdfgray.flip-list>li>.flip-back,html body .rabdfgray.flip-list>li>.flip-front,html body .rabdfgray.slide.accent,html body .rabdfgray.slide-front.accent,html body .rabdfgray.slide-back.accent,html body .rabdfgray.flip-front.accent,html body .rabdfgray.flip-back.accent{background-color:#515153;}
+html body .rabdfgray.accentColor,html body .rabdfgray.accentHover:hover,html body .rabdfgray.accentHover a:hover,html body .rabdfgray.accentLink a,html body .rabdfgray.accentLink a:hover,html body .rabdfgray.accentLink a:visited,a.accentLinkhtml body .rabdfgray,a.accentLinkhtml body .rabdfgray:hover,a.accentLinkhtml body .rabdfgray:visited{color:#515153;}
+html body .rabdfgray.accentBorder{border-color:#515153;}
+html body .rabdfgray.accentBorderBottom{border-bottom-color:#515153;}
+html body .rabdfgray.accentBorderLeft{border-left-color:#515153;}
+html body .rabdfgray.accentBorderRight{border-right-color:#515153;}
+html body .rabdfgray.accentBorderTop{border-top-color:#515153;}
+.rabdflightgray .accent,.rabdflightgray .live-tile>div,.rabdflightgray .copy-tile>div,.rabdflightgray .live-tile>.face,.rabdflightgray .copy-tile>.face,.rabdflightgray .live-tile>.slide,.rabdflightgray .live-tile>.flip-back,.rabdflightgray .live-tile>.flip-front,.rabdflightgray .live-tile>.slide-back,.rabdflightgray .live-tile>.slide-front,.rabdflightgray .list-tile>div,.rabdflightgray .flip-list>li>div{background-color:#979799;}
+.rabdflightgray .accentColor,.rabdflightgray .accentHover:hover,.rabdflightgray .accentHover a:hover,.rabdflightgray .accentLink a,.rabdflightgray .accentLink a:hover,.rabdflightgray .accentLink a:visited,.rabdflightgray a.accentLink,.rabdflightgray a.accentLink:hover,.rabdflightgray a.accentLink:visited{color:#979799;}
+.rabdflightgray .accentBorder{border-color:#979799;}
+.rabdflightgray .accentBorderBottom{border-bottom-color:#979799;}
+.rabdflightgray .accentBorderLeft{border-left-color:#979799;}
+.rabdflightgray .accentBorderRight{border-right-color:#979799;}
+.rabdflightgray .accentBorderTop{border-top-color:#979799;}
+html body .rabdflightgray.accent,html body .rabdflightgray.live-tile>.accent,html body .rabdflightgray.list-tile>.accent,html body .rabdflightgray.copy-tile>.accent,html body .rabdflightgray.live-tile>div,html body .rabdflightgray.copy-tile>div,html body .rabdflightgray.list-tile>div,html body .rabdflightgray.live-tile>.face,html body .rabdflightgray.list-tile>.face,html body .rabdflightgray.copy-tile>.face,html body .rabdflightgray.live-tile>.slide,html body .rabdflightgray.live-tile>.flip-back,html body .rabdflightgray.live-tile>.flip-front,html body .rabdflightgray.live-tile>.slide-back,html body .rabdflightgray.live-tile>.slide-front,html body .rabdflightgray.flip-list>li>.accent,html body .rabdflightgray.flip-list>li>.flip-back,html body .rabdflightgray.flip-list>li>.flip-front,html body .rabdflightgray.slide.accent,html body .rabdflightgray.slide-front.accent,html body .rabdflightgray.slide-back.accent,html body .rabdflightgray.flip-front.accent,html body .rabdflightgray.flip-back.accent{background-color:#979799;}
+html body .rabdflightgray.accentColor,html body .rabdflightgray.accentHover:hover,html body .rabdflightgray.accentHover a:hover,html body .rabdflightgray.accentLink a,html body .rabdflightgray.accentLink a:hover,html body .rabdflightgray.accentLink a:visited,a.accentLinkhtml body .rabdflightgray,a.accentLinkhtml body .rabdflightgray:hover,a.accentLinkhtml body .rabdflightgray:visited{color:#979799;}
+html body .rabdflightgray.accentBorder{border-color:#979799;}
+html body .rabdflightgray.accentBorderBottom{border-bottom-color:#979799;}
+html body .rabdflightgray.accentBorderLeft{border-left-color:#979799;}
+html body .rabdflightgray.accentBorderRight{border-right-color:#979799;}
+html body .rabdflightgray.accentBorderTop{border-top-color:#979799;}
+.appbar{background-color:#212021;bottom:0px;color:#fff;font-size:.9em;height:60px;left:0px;line-height:normal;margin:0;max-height:100%;overflow:hidden;padding:10px 0;position:fixed;right:0px;text-align:right;width:100%;z-index:100;-ms-touch-action:manipulation;}.appbar.top{bottom:auto !important;top:0px;}
+.appbar a.etc,.appbar a.etc:hover,.appbar a.etc:visited{color:#fff;cursor:pointer;display:block;font-size:32px;height:60px;position:absolute;right:8px;text-decoration:none;top:0px;width:90px;z-index:100;}
+.appbar .clear{clear:both;}
+.appbar .theme-options{display:block;float:left;margin:0px;position:relative;width:80%;}
+.appbar .theme-options>ul{padding-right:8px;}
+.appbar .theme-options li{display:block;margin:8px;float:left;line-height:32px;height:32px;width:32px;}
+.appbar .theme-options li>a,.appbar .theme-options li>a:hover,.appbar .theme-options li>a:visited{display:block;padding:0px;text-decoration:none;height:32px;width:32px;}
+.appbar .base-theme-options{display:block;float:left;margin:0px;position:relative;width:20%;}
+.appbar .base-theme-options>ul{padding-left:2px;}
+.appbar .base-theme-options li{display:block;margin:8px;float:left;line-height:32px;height:32px;width:32px;}
+.appbar .base-theme-options li>a,.appbar .base-theme-options li>a:hover,.appbar .base-theme-options li>a:visited{display:block;padding:0px;text-decoration:none;height:32px;width:32px;}
+.appbar .base-theme-options li>a.dark.accent{background-color:#000;}
+.appbar .theme-options h2,.appbar .base-theme-options h2{font-size:2em;font-weight:normal;padding:8px 8px 12px;text-align:left;}
+.appbar .charm-title{font-size:10px;display:block;text-align:center;}
+.appbar .links{font-size:2em;padding:24px 0 0 8px;text-align:left;}.appbar .links a,.appbar .links a:link{text-decoration:none;}
+.appbar.small{height:28px;}.appbar.small a.etc,.appbar.small a.etc:hover,.appbar.small a.etc:visited{font-size:16px;height:60px;width:90px;}
+.light .appbar{background-color:#dfdfdf;color:#000;}
+.dark .appbar{background-color:#212021;}
+.light .appbar-buttons li a{color:#000;}
+.light .appbar-buttons a>img{background-image:url('images/metroIcons_light.jpg');}
+.light .appbar a.etc,.light .appbar a.etc:hover,.light .appbar a.etc:visited{color:#000;}
+.small .appbar-buttons{width:156px;}.small .appbar-buttons a>img{height:32px;width:32px;}
+.small .appbar-buttons.one{width:52px;}
+.small .appbar-buttons.two{width:104px;}
+.small .appbar-buttons.three{width:156px;}
+.small .appbar-buttons.four{width:208px;}
+.small .appbar-buttons.five{width:260px;}
+.small .appbar-buttons.six{width:312px;}
+.small .appbar-buttons.seven{width:364px;}
+.small .appbar-buttons.eight{width:416px;}
+.small .appbar-buttons.nine{width:468px;}
+.small .appbar-buttons.ten{width:520px;}
+.appbar-buttons{margin:0 auto;overflow:hidden;position:relative;padding:0 0 2px;text-align:right;width:252px;}.appbar-buttons.one{width:84px;}
+.appbar-buttons.two{width:168px;}
+.appbar-buttons.three{width:252px;}
+.appbar-buttons.four{width:336px;}
+.appbar-buttons.five{width:420px;}
+.appbar-buttons.six{width:504px;}
+.appbar-buttons.seven{width:588px;}
+.appbar-buttons.eight{width:672px;}
+.appbar-buttons.nine{width:756px;}
+.appbar-buttons.ten{width:840px;}
+.appbar-buttons a>img{background-image:url('images/metroIcons.jpg');background-repeat:no-repeat;border:none;height:64px;width:64px;}
+.appbar-buttons a.small>img{height:32px;width:32px;}
+.appbar-buttons a.search>img{background-position:-12px -12px;}
+.appbar-buttons a.home>img{background-position:-104px -12px;}
+.appbar-buttons a.twitter>img{background-position:-196px -12px;}
+.appbar-buttons a.calendar>img{background-position:-288px -12px;}
+.appbar-buttons a.storm>img{background-position:-380px -12px;}
+.appbar-buttons a.down>img{background-position:-472px -12px;}
+.appbar-buttons a.camera>img{background-position:-12px -99px;}
+.appbar-buttons a.camcorder>img{background-position:-104px -99px;}
+.appbar-buttons a.qmark>img,.appbar-buttons a.about>img{background-position:-196px -99px;}
+.appbar-buttons a.share>img{background-position:-288px -99px;}
+.appbar-buttons a.rain>img{background-position:-380px -99px;}
+.appbar-buttons a.cancel>img,.appbar-buttons a.close>img{background-position:-472px -99px;}
+.appbar-buttons a.delete>img,.appbar-buttons a.trash>img{background-position:-12px -188px;}
+.appbar-buttons a.tag>img{background-position:-104px -188px;}
+.appbar-buttons a.addcontact>img{background-position:-196px -188px;}
+.appbar-buttons a.save>img{background-position:-288px -188px;}
+.appbar-buttons a.snow>img{background-position:-380px -188px;}
+.appbar-buttons a.msg>img{background-position:-472px -188px;}
+.appbar-buttons a.email>img{background-position:-12px -274px;}
+.appbar-buttons a.clock>img{background-position:-104px -274px;}
+.appbar-buttons a.edit>img{background-position:-196px -274px;}
+.appbar-buttons a.circle>img{background-position:-288px -274px;}
+.appbar-buttons a.moon>img{background-position:-380px -274px;}
+.appbar-buttons a.calc>img{background-position:-12px -362px;}
+.appbar-buttons a.gear>img{background-position:-104px -362px;}
+.appbar-buttons a.plus>img{background-position:-196px -362px;}
+.appbar-buttons a.dot>img{background-position:-288px -362px;}
+.appbar-buttons a.restart>img,.appbar-buttons a.return>img{background-position:-380px -362px;}
+.appbar-buttons a.add>img{background-position:-472px -362px;}
+.appbar-buttons a.phone>img{background-position:-12px -453px;}
+.appbar-buttons a.film>img{background-position:-104px -453px;}
+.appbar-buttons a.back>img{background-position:-196px -453px;}
+.appbar-buttons a.car>img{background-position:-288px -453px;}
+.appbar-buttons a.forward>img{background-position:-380px -453px;}
+.appbar-buttons a.selectmany>img{background-position:-472px -453px;}
+.appbar-buttons a.stop>img{background-position:-12px -538px;}
+.appbar-buttons a.contacts>img{background-position:-104px -538px;}
+.appbar-buttons a.select>img{background-position:-196px -538px;}
+.appbar-buttons a.sun>img{background-position:-288px -538px;}
+.appbar-buttons a.dpad>img{background-position:-380px -538px;}
+.appbar-buttons a.play>img{background-position:-472px -538px;}
+.appbar-buttons li{display:inline;padding:0 10px;float:left;list-style:none;}
+.appbar-buttons li a{font-weight:bold;background-color:transparent;color:#fff;}
+.appbar-buttons li a:active,.appbar-buttons ul#menu li.selected a,.appbar-buttons .appbar-buttons li a:hover{text-decoration:none;}
+.small .appbar-buttons .search>img,.appbar-buttons .small.search>img{background-position:-562px -6px;}
+.small .appbar-buttons .home>img,.appbar-buttons .small.home>img{background-position:-608px -6px;}
+.small .appbar-buttons .twitter>img,.appbar-buttons .small.twitter>img{background-position:-654px -6px;}
+.small .appbar-buttons .calendar>img,.appbar-buttons .small.calendar>img{background-position:-700px -6px;}
+.small .appbar-buttons .storm>img,.appbar-buttons .small.storm>img{background-position:-746px -6px;}
+.small .appbar-buttons .down>img,.appbar-buttons .small.down>img{background-position:-792px -6px;}
+.small .appbar-buttons .camera>img,.appbar-buttons .small.camera>img{background-position:-562px -50px;}
+.small .appbar-buttons .camcorder>img,.appbar-buttons .small.camcorder>img{background-position:-608px -50px;}
+.small .appbar-buttons .qmark>img,.appbar-buttons .small.qmark>img,.small .appbar-buttons .about>img,.appbar-buttons .small.about>img{background-position:-654px -50px;}
+.small .appbar-buttons .share>img,.appbar-buttons .small.share>img{background-position:-700px -50px;}
+.small .appbar-buttons .rain>img,.appbar-buttons .small.rain>img{background-position:-746px -50px;}
+.small .appbar-buttons .cancel>img,.appbar-buttons .small.cancel>img,.small .appbar-buttons .close>img,.appbar-buttons .small.close>img{background-position:-792px -50px;}
+.small .appbar-buttons .delete>img,.appbar-buttons .small.delete>img,.small .appbar-buttons .trash>img,.appbar-buttons .small.trash>img{background-position:-562px -94px;}
+.small .appbar-buttons .tag>img,.appbar-buttons .small.tag>img{background-position:-608px -94px;}
+.small .appbar-buttons .addcontact>img,.appbar-buttons .small.addcontact>img{background-position:-654px -94px;}
+.small .appbar-buttons .save>img,.appbar-buttons .small.save>img{background-position:-700px -94px;}
+.small .appbar-buttons .snow>img,.appbar-buttons .small.snow>img{background-position:-746px -94px;}
+.small .appbar-buttons .msg>img,.appbar-buttons .small.msg>img{background-position:-792px -94px;}
+.small .appbar-buttons .email>img,.appbar-buttons .small.email>img{background-position:-562px -137px;}
+.small .appbar-buttons .clock>img,.appbar-buttons .small.clock>img{background-position:-608px -137px;}
+.small .appbar-buttons .edit>img,.appbar-buttons .small.edit>img{background-position:-654px -137px;}
+.small .appbar-buttons .circle>img,.appbar-buttons .small.circle>img{background-position:-700px -137px;}
+.small .appbar-buttons .moon>img,.appbar-buttons .small.moon>img{background-position:-746px -137px;}
+.small .appbar-buttons .calc>img,.appbar-buttons .small.calc>img{background-position:-562px -181px;}
+.small .appbar-buttons .gear>img,.appbar-buttons .small.gear>img{background-position:-608px -181px;}
+.small .appbar-buttons .plus>img,.appbar-buttons .small.plus>img{background-position:-654px -181px;}
+.small .appbar-buttons .dot>img,.appbar-buttons .small.dot>img{background-position:-700px -181px;}
+.small .appbar-buttons .restart>img,.appbar-buttons .small.restart>img,.small .appbar-buttons .return>img,.appbar-buttons .small.return>img{background-position:-746px -181px;}
+.small .appbar-buttons .add>img,.appbar-buttons .small.add>img{background-position:-792px -181px;}
+.small .appbar-buttons .phone>img,.appbar-buttons .small.phone>img{background-position:-562px -226px;}
+.small .appbar-buttons .film>img,.appbar-buttons .small.film>img{background-position:-608px -226px;}
+.small .appbar-buttons .back>img,.appbar-buttons .small.back>img{background-position:-654px -226px;}
+.small .appbar-buttons .car>img,.appbar-buttons .small.car>img{background-position:-700px -226px;}
+.small .appbar-buttons .forward>img,.appbar-buttons .small.forward>img{background-position:-746px -226px;}
+.small .appbar-buttons .selectmany>img,.appbar-buttons .small.selectmany>img{background-position:-792px -226px;}
+.small .appbar-buttons .stop>img,.appbar-buttons .small.stop>img{background-position:-562px -269px;}
+.small .appbar-buttons .contacts>img,.appbar-buttons .small.contacts>img{background-position:-608px -269px;}
+.small .appbar-buttons .select>img,.appbar-buttons .small.select>img{background-position:-654px -269px;}
+.small .appbar-buttons .sun>img,.appbar-buttons .small.sun>img{background-position:-700px -269px;}
+.small .appbar-buttons .dpad>img,.appbar-buttons .small.dpad>img{background-position:-746px -269px;}
+.small .appbar-buttons .play>img,.appbar-buttons .small.play>img{background-position:-792px -269px;}
+@media screen and (max-width:1025px){.appbar .theme-options h2,.appbar .base-theme-options h2,.appbar .links{font-size:1.7em;padding:8px 8px 2px;text-align:left;} .appbar .base-theme-options li,.appbar .base-theme-options li a,.appbar .theme-options li,.appbar .theme-options li a{display:block;height:32px;margin:4px;width:32px;}}@media screen and (max-width:801px){.appbar .theme-options h2,.appbar .base-theme-options h2,.appbar .links{font-size:1.3em;} .appbar .theme-options>ul{padding-right:6px;}}@media screen and (max-width:641px){.appbar .theme-options{width:70%;} .appbar .base-theme-options{width:30%;}}
