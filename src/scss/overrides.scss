@@ -1,4 +1,26 @@
-/*overrides*/
+/*personal variables*/
+
+$rabdfBlue: #1daeec;
+$rabdfOrange: #f59331;
+$rabdfPink: #d84f9a;
+$rabdfGreen: #79b94a;
+$rabdfGray: #515153;
+$rabdfLightGray: #979799;
+
+// Media Queries
+
+$mobile-screen: 360px;
+$small-screen: 720px;
+$medium-screen: 972px;
+$large-screen: 1440px;
+$hd-screen:1800px;
+$almostimac-screen:2160px;
+
+/*errata*/
+
+.floatClear {
+	clear:both;
+}
 
 
 .live-tile {
@@ -12,6 +34,11 @@
 }
 
 /*all tiles*/
+
+#tilePage .mix{
+    opacity: 0;
+    display: none;
+}
 
 .tiles.tile-group {
 	@media screen and (min-width : 480px) {
@@ -34,16 +61,76 @@
 	}
 }
 
+.live-tile div.slide-back {
+	background-color:transparent !important;
+}
+
 /*logo*/
 
 .logo {
 	float:left;
+	background-image:url('../img/logo.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	div {
+		background-color:transparent !important;
+	}
 }
 
 /*filters*/
 
+.grayheading {
+	display: block;
+	bottom: -47px;
+	height: 0;
+	left: 12px;
+	font-size: 2em;
+	position: relative;
+	color:$rabdfLightGray;
+}
+
+.link.login {
+	display: block;
+	bottom: -62px;
+	height: 0;
+	text-align: right;
+	right:12px;
+	font-size: 1em;
+	position: relative;
+	color: #979799;
+	text-transform: uppercase;
+	&:hover {
+		color:white;
+	}
+}
+
 .filters {
+
+	cursor: pointer;
+
+	#general_filter {
+
+		background-color:$rabdfBlue;
+
+	}
+
+	#visitor_filter {
+
+		background-color:$rabdfPink;
+
+	}
 	
+	#exhibitor_filter {
+
+		background-color:$rabdfOrange;
+
+	}
+
+	#all_filter {
+
+		background-color:$rabdfGreen;
+
+	}
 }
 
 /*testimonials tile*/
