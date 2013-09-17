@@ -1,4 +1,6 @@
-# Foundation Base Boilerplate [![Build Status](https://travis-ci.org/toddmotto/fireshell.png)](https://travis-ci.org/toddmotto/fireshell)
+# RABDF Livestock Event site [![Build Status](https://travis-ci.org/toddmotto/fireshell.png)](https://travis-ci.org/toddmotto/fireshell)
+
+Based on Foundation base framework, in turn based on Fireshell bolerplate. Roadmap is to use this in conjunction with a Laravel 4 API for a CMS and an Angular app for a visual booking system.
 
 Based on the Fireshell boilerplate framework, but augmented with Zurb Foundation. Variables are now in the src/scss/vendor/foundation/_variables.scss file, and overrides are in the src/scss file itself.
 
