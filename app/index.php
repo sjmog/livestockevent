@@ -39,6 +39,15 @@
       </div>
     </div>
 
+    <!--test content-->
+    <div class="container">
+      <div class="tile rabdfgreen tile-1-wide tile-half-tall"></div>
+      <div class="tile rabdfgreen tile-1-wide tile-half-tall"></div>
+      <div class="tile rabdfgreen tile-1-wide"></div>
+      <div class="tile rabdfgreen tile-1-wide tile-half-tall"></div>
+      <div class="tile rabdfgreen tile-1-wide tile-half-tall"></div>
+    </div>
+
     
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>');</script>
     <script src="js/scripts.min.js"></script>

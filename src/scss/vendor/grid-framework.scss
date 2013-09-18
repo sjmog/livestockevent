@@ -1,0 +1,99 @@
+//breakpoints
+
+$mobile-screen-size: 0px;
+$tablet-portrait-screen-size: 640px;
+$tablet-landscape-screen-size: 1024px;
+$laptop-screen-size: 1440px;
+$hd-screen-size:1920px;
+$almost-imac-screen-size:2440px;
+
+//container sizes
+
+$mobile-container-size: 320px;
+$tablet-portrait-container-size: 640px;
+$tablet-landscape-container-size: 960px;
+$laptop-container-size: 1280px;
+$hd-container-size:1600px;
+$almost-imac-container-size:1920px;
+
+//container variables
+
+$container-margin: 10px auto; //keeps the container central and the gaps between tiles and edges constant
+
+//tile variables
+
+$tile-margin: 10px;
+$tile-height: 360px;
+$tile-width: 300px;
+$tile-padding:20px;
+
+//container queries
+
+.container {
+	//defaults
+	margin: 0 auto;
+	@media screen and (min-width: $mobile-screen-size) {
+		width: $mobile-container-size; //1 column
+	}
+	@media screen and (min-width: $tablet-portrait-screen-size) {
+		width: $tablet-portrait-container-size; //2 columns
+	}
+	@media screen and (min-width: $tablet-landscape-screen-size) {
+		width: $tablet-landscape-container-size; //3 columns
+	}
+	@media screen and (min-width: $laptop-screen-size) {
+		width: $laptop-container-size; //4 columns
+	}
+	@media screen and (min-width: $hd-screen-size) {
+		width: $hd-container-size; //5 columns
+	}
+	@media screen and (min-width: $almost-imac-screen-size) {
+		width: $almost-imac-container-size; //6 columns
+	}
+}
+
+//tile sizing settings
+
+.tile {
+	background: blue;
+	display:inline-block;
+	float:left;
+	padding:$tile-padding;
+	margin: $tile-margin;
+	//defaults
+	height: $tile-height;
+	width: $tile-width;
+	position:relative;
+	@for $i from 1 through 6 {
+	  &.tile-#{$i}-wide { width: $i * $tile-width + ((2 * $i) - 2) * $tile-margin; }
+	}
+	@for $i from 1 through 6 {
+	  &.tile-#{$i}-tall { height: $i * $tile-height + ((2 * $i) - 2) * $tile-margin; }
+	}
+	&.tile-quarter-wide {
+		width: 0.25 * $tile-width + ((2 * 0.25) - 2) * $tile-margin;
+	}
+	&.tile-half-wide {
+		width: 0.5 * $tile-width + ((2 * 0.5) - 2) * $tile-margin;
+	}
+	&.tile-quarter-tall {
+		height: 0.25 * $tile-height + ((2 * 0.25) - 2) * $tile-margin;
+	}
+	&.tile-half-tall {
+		height: 0.5 * $tile-height + ((2 * 0.5) - 2) * $tile-margin;
+		//float smaller tiles atop one another if they're displayed
+		& + .tile-half-tall {
+			top: $tile-height/2 + $tile-margin;
+			right: $tile-width + 2 * $tile-margin;
+			& + .tile {
+				margin-left: -1 * ($tile-width + $tile-margin); //this needs to not happen when the half-tile is the last in the row
+			}
+		}
+		& + .tile-half-tall[style=' '] {
+			& + .tile {
+				margin:12px !important;
+			}
+		}
+	}
+}
+
