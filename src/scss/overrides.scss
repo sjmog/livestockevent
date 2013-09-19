@@ -29,57 +29,31 @@ $almostimac-screen:2160px;
 
 /*all tiles*/
 
-#tilePage .mix{
+.container .mix{
     opacity: 0;
     display: none;
 }
 
-.tiles.tile-group {
-	margin: 12px auto;
-	@media screen and (min-width : 480px) {
-	  width: $mobile-screen;
-	}
-	@media screen and (min-width : 768px) {
-	  width: $small-screen;
-	}
-	@media screen and (min-width : 1280px) {
-	  width: $medium-screen;
-	}
-	@media screen and (min-width : $large-screen) {
-	  width: 1280px;
-	}
-	@media screen and (min-width : $hd-screen) {
-	  width: 1600px;
-	}
-	@media screen and (min-width : $almostimac-screen) {
-	  width: 1920px;
-	}
-}
-
-.live-tile div.slide-back {
-	background-color:transparent !important;
-}
-
-.live-tile {
-	@media screen and (min-width : $mobile-screen) {
-	  margin:12px auto;
-	}
-	@media screen and (min-width : $small-screen) {
-	  margin:12px;
-	}
-	&:nth-child(3):after { 
-		content:"\A"; white-space:pre; 
-	}
-	padding:20px;
+.tile {
 	background-color: $rabdfBlue;
+	&.rabdfpink {
+		background-color: $rabdfPink;
+	}
+	&.rabdforange {
+		background-color: $rabdfOrange;
+	}
+	&.rabdflightgray {
+		background-color: $rabdfLightGray;
+	}
 	&.content-tile > span {
 		display:block;
-		bottom:260px;
+		bottom:294px;
 		padding: 0;
 		border-bottom: 1px solid lighten($rabdfBlue, 4);
 		text-align:center;
 		text-transform: uppercase;
 		position:absolute;
+		left:0;
 		top:24px;
 		font-size:1.2em;
 		width:100%;
@@ -93,45 +67,20 @@ $almostimac-screen:2160px;
 			border-bottom: 1px solid darken($rabdfBlue, 4);
 		}
 	};
-	&.content-tile.half-tall > span {
-		bottom:90px;
+	&.content-tile.tile-half-tall > span {
+		bottom:104px;
 		border-color:lighten($rabdfOrange, 4);
 		&:before {
 			border-color:darken($rabdfOrange, 4);
 		}
 	}
-	&.content-tile.half-tall.rabdfpink > span {
+	&.content-tile.tile-half-tall.rabdfpink > span {
 		border-color:lighten($rabdfPink, 4);
 		&:before {
 			border-color:darken($rabdfPink, 4);
 		}
 	}
 }
-
-/*shufti the half-tiles*/
-
-.half-tall {
-	& + .half-tall[style*="display: inline-block; opacity: 1;"] {
-		margin-right: 13px;
-		margin-top: 3px;
-		& + .live-tile {
-			margin-left: 11px;
-			margin-top: -167px;
-		}
-	}
-	& + .half-tall[style=' '] {
-		& + .live-tile {
-			margin:12px !important;
-		}
-	}
-}
-.half-tall[style=' '] + .half-tall {
-	margin:12px !important;
-	& + .live-tile {
-			margin:12px !important;
-		}
-}
-
 
 /*logo*/
 

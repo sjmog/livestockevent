@@ -19,10 +19,7 @@
   <body>
 
     <!--start content-->
-    <div class="row">
-      <div class="small-12">
-        <!-- Apply blue theme as default for all tiles, but use the tiles class to allow the theme to be swapped. The 'x-wide' property will change depending on the viewing media width (1 tile width has a total of 320px) -->
-        <div id="tilePage" class="tiles rabdfblue tile-group three-wide page">
+    <div class="container">
           <?php include 'partials/header/header.php'; ?>
           <?php include 'partials/tiles/testimonials/testimonials.php'; ?>
           <?php include 'partials/tiles/welcome/welcome.php'; ?>
@@ -35,20 +32,8 @@
           <?php include 'partials/tiles/about/about.php'; ?>
           <?php include 'partials/tiles/contractors/contractors.php'; ?>
           <?php include 'partials/footer/footer.php'; ?>
-        </div>
-      </div>
     </div>
 
-    <!--test content-->
-    <div class="container">
-      <div class="tile rabdfgreen tile-1-wide tile-half-tall"></div>
-      <div class="tile rabdfgreen tile-1-wide tile-half-tall"></div>
-      <div class="tile rabdfgreen tile-1-wide"></div>
-      <div class="tile rabdfgreen tile-1-wide tile-half-tall"></div>
-      <div class="tile rabdfgreen tile-1-wide tile-half-tall"></div>
-    </div>
-
-    
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>');</script>
     <script src="js/scripts.min.js"></script>
     <script src="js/vendor/jquery.mixitup.min.js"></script>
@@ -96,6 +81,7 @@
 
     <script src="js/foundation/foundation.topbar.js"></script>
 
+    <script src="js/vendor/gridism.js"></script>
 
     <script>
     $(document).foundation();
@@ -109,7 +95,17 @@
     <!--filters-->
     <script type="text/javascript">
       $(function() {
-        $('#tilePage').mixitup();
+        $('.container').mixitup({
+          onMixEnd: function() {
+            gridify()}
+        });
+      });
+    </script>
+
+    <!--maintaining the grid-->
+    <script type="text/javascript">
+      $(function() {        
+        gridify();
       });
     </script>
 

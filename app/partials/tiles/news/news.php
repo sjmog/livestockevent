@@ -1,6 +1,3 @@
-<!-- Sliding Tile that shows 100% of the back tile every 3 seconds -->
-<div class="live-tile staticTile news mix content-tile list-tile visitor exhibitor general_info all" data-speed="750" data-delay="999999999">
-    <span class="tile-title">news</span>
-    <div></div>
-    <div></div>
+<div class="tile content-tile news list-tile mix exhibitor visitor general_info all tile-1-wide" data-height="1">
+	<span class="tile-title">news</span>
 </div>

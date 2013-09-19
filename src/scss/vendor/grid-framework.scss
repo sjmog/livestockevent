@@ -67,6 +67,26 @@ $tile-padding:20px;
 	@for $i from 1 through 6 {
 	  &.tile-#{$i}-wide { width: $i * $tile-width + ((2 * $i) - 2) * $tile-margin; }
 	}
+	&.tile-n-wide {
+		@media screen and (min-width: $mobile-screen-size) {
+			width: 1 * $tile-width + ((2 * 1) - 2) * $tile-margin; //1 column
+		}
+		@media screen and (min-width: $tablet-portrait-screen-size) {
+			width: 2 * $tile-width + ((2 * 2) - 2) * $tile-margin; //2 columns
+		}
+		@media screen and (min-width: $tablet-landscape-screen-size) {
+			width: 3 * $tile-width + ((2 * 3) - 2) * $tile-margin; //3 columns
+		}
+		@media screen and (min-width: $laptop-screen-size) {
+			width: 4 * $tile-width + ((2 * 4) - 2) * $tile-margin; //4 columns
+		}
+		@media screen and (min-width: $hd-screen-size) {
+			width: 5 * $tile-width + ((2 * 5) - 2) * $tile-margin; //5 columns
+		}
+		@media screen and (min-width: $almost-imac-screen-size) {
+			width: 6 * $tile-width + ((2 * 6) - 2) * $tile-margin; //6 columns
+		}
+	}
 	@for $i from 1 through 6 {
 	  &.tile-#{$i}-tall { height: $i * $tile-height + ((2 * $i) - 2) * $tile-margin; }
 	}
@@ -82,16 +102,14 @@ $tile-padding:20px;
 	&.tile-half-tall {
 		height: 0.5 * $tile-height + ((2 * 0.5) - 2) * $tile-margin;
 		//float smaller tiles atop one another if they're displayed
-		& + .tile-half-tall {
+		&.fractional-inner + .tile-half-tall {
 			top: $tile-height/2 + $tile-margin;
 			right: $tile-width + 2 * $tile-margin;
 			& + .tile {
-				margin-left: -1 * ($tile-width + $tile-margin); //this needs to not happen when the half-tile is the last in the row
+				margin-left: -1 * ($tile-width + $tile-margin);
 			}
-		}
-		& + .tile-half-tall[style=' '] {
-			& + .tile {
-				margin:12px !important;
+			&.tileHidden + .tile {
+				margin-left:$tile-margin;
 			}
 		}
 	}
