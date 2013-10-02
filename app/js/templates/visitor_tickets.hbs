@@ -1,0 +1,43 @@
+
+	
+	<div class="flipper">
+		<div class="front">
+			<span class="tile-title">tickets</span>
+			<div class="row buttonContent">
+				<div class="small-6 columns vertWrap">
+					<div class="vertElement">
+						<a href="booking" class="button callToAction"><span class="icon-add-icon pink"></span></a>
+						<span class="buttonLabel">book</span>
+					</div>
+				</div>
+				<div class="small-6 columns vertWrap">
+					<div class="vertElement">
+						<a id="visitorPricing" class="button callToAction"><span class="icon-pound-icon pink"></span></a>
+						<span class="buttonLabel">pricing</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="back">
+			<a class="closeButton" id="visitor_tickets-closeButton"><span class="icon-close-alt"></span></a>
+			<input type="number" name="visitor_tickets" min="1">
+		</div>
+	</div>
+
+<!--for the flipping-->
+<script type="text/javascript">
+	$('#visitorPricing').click(function() {
+		$('.visitor_tickets .flipper').transition({
+	  		perspective: '100000px',
+	  		rotateY: '180deg'
+		});
+		$('.tile.visitor_tickets').addClass('flipped');
+	});
+	$('#visitor_tickets-closeButton').click(function() {
+		$('.flipper').transition({
+	  		perspective: '100px',
+	  		rotateY: '0deg'
+		});
+		$('.tile.visitor_tickets').removeClass('flipped');
+	});
+</script>

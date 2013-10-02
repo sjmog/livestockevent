@@ -1,0 +1,43 @@
+
+{{view App.TestimonialsView}}
+{{view App.WelcomeView}}
+{{view App.GettingThereView}}
+{{view App.VisitorTicketsView}}
+{{view App.ExhibitorStandSpaceView}}
+{{view App.NewsView}}
+{{view App.ImageView}}
+{{view App.SocialView}}
+{{view App.ContactView}}
+{{view App.AboutView}}
+{{view App.ContractorsView}}
+
+
+<!--filters-->
+<script type="text/javascript">
+  $(function() {
+    $('.container').mixitup({
+      onMixEnd: function() {
+        gridify()}
+    });
+  });
+</script>
+
+<!--maintaining the grid-->
+<script type="text/javascript">
+  $(function() {        
+    gridify();
+  });
+</script>
+
+<!--make tabs function properly -->
+
+<script type="text/javascript">
+
+$('.tab').click(function() {
+    $(this).siblings().removeClass('currentTab prevTab');
+    $(this).addClass('currentTab');
+    var prevTab = $(this).prev('.tab');
+    $(prevTab).addClass("prevTab");
+})
+
+</script>

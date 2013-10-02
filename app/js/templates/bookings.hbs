@@ -1,0 +1,47 @@
+<h2>Bookings</h2>
+
+{{#linkTo "new_booking"}}New Booking{{/linkTo}}
+
+<table>
+  <thead>
+    <th>companyName</th>
+    <th>companyReg</th>
+    <th>corporateMembership</th>
+    <th>correspondenceAddress</th>
+    <th>invoiceAddress</th>
+    <th>tcAgreed</th>
+    <th>showArea</th>
+    <th>sameAs2013</th>
+    <th>standType</th>
+    <th>frontage</th>
+    <th>depth</th>
+    <th>price</th>
+    <th>depositPaid</th>
+    <th>totalPaid</th>
+    <th>breedSociety</th>
+  </thead>
+  <tbody>
+    {{#each booking in controller}}
+    <tr>
+      <td>{{ booking.companyName }}</td>
+      <td>{{ booking.companyReg }}</td>
+      <td>{{ booking.corporateMembership }}</td>
+      <td>{{ booking.correspondenceAddress }}</td>
+      <td>{{ booking.invoiceAddress }}</td>
+      <td>{{ booking.tcAgreed }}</td>
+      <td>{{ booking.showArea }}</td>
+      <td>{{ booking.sameAs2013 }}</td>
+      <td>{{ booking.standType }}</td>
+      <td>{{ booking.frontage }}</td>
+      <td>{{ booking.depth }}</td>
+      <td>{{ booking.price }}</td>
+      <td>{{ booking.depositPaid }}</td>
+      <td>{{ booking.totalPaid }}</td>
+      <td>{{ booking.breedSociety }}</td>
+      <td>{{#linkTo "booking" booking }}view{{/linkTo}}</td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
+
+

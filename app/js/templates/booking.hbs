@@ -1,0 +1,77 @@
+<h2>Booking</h2>
+
+<p>
+  <b>Company name:</b> {{ companyName }}
+</p>
+
+<p>
+  <b>Company reg:</b> {{ companyReg }}
+</p>
+
+<p>
+  <b>Corporate membership:</b> {{ corporateMembership }}
+</p>
+
+<p>
+  <b>Correspondence address:</b> {{ correspondenceAddress }}
+</p>
+
+<p>
+  <b>Invoice address:</b> {{ invoiceAddress }}
+</p>
+
+<p>
+  <b>Tc agreed:</b> {{ tcAgreed }}
+</p>
+
+<p>
+  <b>Show area:</b> {{ showArea }}
+</p>
+
+<p>
+  <b>Same as2013:</b> {{ sameAs2013 }}
+</p>
+
+<p>
+  <b>Stand type:</b> {{ standType }}
+</p>
+
+<p>
+  <b>Position:</b> {{ position }}
+</p>
+
+<p>
+  <b>Frontage:</b> {{ frontage }}
+</p>
+
+<p>
+  <b>Depth:</b> {{ depth }}
+</p>
+
+<p>
+  <b>Price:</b> {{ price }}
+</p>
+
+<p>
+  <b>Surcharge:</b> {{ surcharge }}
+</p>
+
+<p>
+  <b>Total Price:</b> {{ price }} + {{ surcharge }}
+</p>
+
+<p>
+  <b>Deposit paid:</b> {{ depositPaid }}
+</p>
+
+<p>
+  <b>Total paid:</b> {{ totalPaid }}
+</p>
+
+<p>
+  <b>Breed society:</b> {{ breedSociety }}
+</p>
+
+{{#linkTo "bookings"}}←All Bookings{{/linkTo}}
+{{#linkTo "edit_booking" model}}Edit{{/linkTo}}
+<a href="#" {{action "destroy"}}>Destroy</a>

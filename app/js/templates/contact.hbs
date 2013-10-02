@@ -1,0 +1,91 @@
+
+	<div class="flipper">
+		<div class="front">
+			<span class="tile-title">contact us</span>
+			<ul data-orbit>
+				  <li data-orbit-slide="contact_1">
+				    <div class="row formContent">
+				    	<!--contact form-->
+				    	<form action="mailto:sam@ghostds.com" enctype="text/plain" method="post">
+					    	<div class="row holderRow">
+					    	  <div class="small-6 columns">
+					    	    <div id="yourNameHolder" class="valueHolder"></div>
+					    	  </div>
+					    	  <div class="small-6 columns">
+					    	    <div id="yourEmailHolder" class="valueHolder"></div>
+					    	  </div>
+					    	</div>
+		                    <div class="row inputRow">
+		                      <div class="small-12 columns">
+		                        <input type="text" id="yourName" placeholder="NAME">
+		                      </div>
+		                    </div>
+		                    <div class="row inputRow">
+		                      <div class="small-12 columns">
+		                        <input type="text" id="yourEmail" placeholder="E-MAIL">
+		                      </div>
+		                    </div>
+		                    <div class="row messageRow">
+		                    	<div class="small-12 columns">
+		                    		<textarea id="contactMessage" placeholder="MESSAGE" rows="4"></textarea>
+		                    	</div>
+		                    </div>
+		                    <div class="row sendRow">
+		                    	<div class="small-12 columns">
+			                    	<button type="submit" class="button callToAction"><span class="">SEND</span></button>
+			                    	
+		                    	</div>
+		                    </div>
+		                  </form>
+		                  <script type="text/javascript">
+		                  	$('#contactMessage').focus(function() {
+		                  		if ($('#yourName').val() && $('#yourEmail').val()) {
+			                  		$('.inputRow').fadeOut();
+			                  		$('#yourNameHolder').html($('#yourName').val());
+			                  		$('#yourEmailHolder').html($('#yourEmail').val());
+			                  		$('.holderRow').fadeIn();
+			                  		$('.sendRow').fadeIn();
+		                  		}
+		                  	});
+
+		                  	$('.valueHolder').click(function() {
+		                  		$('.holderRow').fadeOut();
+								$('.inputRow').fadeIn();
+		                  	});
+		                  </script>
+				    </div>
+				  </li>
+				  <li data-orbit-slide="contact_2">
+					  <div class="row staticContent">
+					  	<div class="small-12 columns vertWrap">
+					  		<div class="vertElement">
+					  			<span class="static">0845 458 2711</span>
+					  		</div>
+					  	</div>			  	
+					  </div>		    
+				  </li>
+			  </ul>
+			<div class="tabs row">
+				<div class="tab small-6 columns currentTab">
+					<a href="#" data-orbit-link="contact_1">
+						<div class="tabIcon">
+							<span class="icon-envelope"></span>
+						</div>
+						<div class="tabText">
+							e-mail us
+						</div>
+					</a>
+				</div>
+				<div class="tab small-6 columns">
+					<a href="#" data-orbit-link="contact_2">
+						<div class="tabIcon">
+							<span class="icon-telephone"></span>
+						</div>
+						<div class="tabText">
+							call us
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>

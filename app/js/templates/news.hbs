@@ -1,0 +1,70 @@
+
+
+	<div class="flipper">
+		<div class="front">
+			<span class="tile-title">news</span>
+			<!-- EMBER CODE
+
+			{{#each}}
+			<div class="row newsItem">
+				<div class="small-3 columns newsDateCol">
+					<div class="newsDateBlock">
+						<div class="newsDay">{{day}}</div>
+						<div class="newsDate">{{month}} 13</div>
+					</div>
+				</div>
+				<div class="small-9 columns newsExcerpt postText">
+					<span class="newsTitle">{{title}}</span>{{content}}
+				</div>
+			</div>
+			{{/each}} -->
+			<div class="row newsItem">
+				<div class="small-3 columns newsDateCol">
+					<div class="newsDateBlock">
+						<div class="newsDay">20</div>
+						<div class="newsDate">mar 13</div>
+					</div>
+				</div>
+				<div class="small-9 columns newsExcerpt">
+					<span class="newsTitle">Hello World!</span>
+					Lorem ipsum excerpt et dolor adipscing elit. Sit amet, consectetur.
+				</div>
+			</div>
+			<div class="row newsItem">
+				<div class="small-3 columns newsDateCol">
+					<div class="newsDateBlock">
+						<div class="newsDay">7</div>
+						<div class="newsDate">feb 13</div>
+					</div>
+				</div>
+				<div class="small-9 columns newsExcerpt">
+					<span class="newsTitle">Hello again!</span>
+					Lorem ipsum excerpt et dolor adipscing elit. Sit amet, consectetur.
+				</div>
+			</div>
+			<div class="row newsItem">
+				<div class="small-3 columns newsDateCol">
+					<div class="newsDateBlock">
+						<div class="newsDay">2</div>
+						<div class="newsDate">jan 13</div>
+					</div>
+				</div>
+				<div class="small-9 columns newsExcerpt">
+					<span class="newsTitle">Hello, new year!</span>
+					Lorem ipsum excerpt et dolor adipscing elit. Sit amet, consectetur.
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+<!--truncate long posts-->
+
+<script>
+    $(function(){
+        $('.postText *').succinct({
+            size: 120
+        });
+    });
+</script>

@@ -1,0 +1,134 @@
+
+	<div class="flipper">
+		<div class="front">
+			<span class="tile-title">contractors</span>
+			<ul data-orbit>
+				  <li data-orbit-slide="contractors_1">
+				    <div class="row staticContent">
+				    	<!-- contractors timescales -->
+				    	<div class="panelHeader">
+				    		<div class="half leftHalf"><h3 class="panelTitle activePanel">build up</h3></div>
+				    		<div class="half rightHalf"><h3 class="panelTitle">break down</h3></div>
+				    	</div>
+		    	      	<div class="panelContent">
+			    	        <p>Sunday 29th June 2014 - 8am - 10pm</p>
+			    	  	<p>Monday 30th June 2014 -8am - 10pm</p>
+			    	  	<p>Tuesday 1st July 2014 - 8am - 10pm</p>
+		    	     	</div> 
+		    	        <div class="panelContent disparu">
+			    	            <p>Thursday 3rd July 2014 - 6:30pm - 9pm</p>
+			    	      	<p>Friday 4th July 2014 - 8am - 9pm</p>
+			    	      	<p>Saturday 5th July 2014 - 8am - Midday</p>
+		    	         </div>
+				    </div>
+				  </li>
+				  <li data-orbit-slide="contractors_2">
+				    <div class="row formContent">
+				    	<!--contact form-->
+				    	<form action="mailto:sam@ghostds.com" enctype="text/plain" method="post">
+					    	<div class="row holderRow contract">
+					    	  <div class="small-6 columns">
+					    	    <div id="contractorNameHolder" class="valueHolder contract"></div>
+					    	  </div>
+					    	  <div class="small-6 columns">
+					    	    <div id="contractorEmailHolder" class="valueHolder contract"></div>
+					    	  </div>
+					    	</div>
+		                    <div class="row inputRow contract">
+		                      <div class="small-12 columns">
+		                        <input type="text" id="contractorName" placeholder="NAME">
+		                      </div>
+		                    </div>
+		                    <div class="row inputRow contract">
+		                      <div class="small-12 columns">
+		                        <input type="text" id="contractorEmail" placeholder="E-MAIL">
+		                      </div>
+		                    </div>
+		                    <div class="row messageRow contract">
+		                    	<div class="small-12 columns">
+		                    		<textarea id="contractMessage" placeholder="MESSAGE" rows="4"></textarea>
+		                    	</div>
+		                    </div>
+		                    <div class="row sendRow contract">
+		                    	<div class="small-12 columns">
+			                    	<button type="submit" class="button callToAction"><span class="">SEND</span></button>
+			                    	
+		                    	</div>
+		                    </div>
+		                  </form>
+		                  <script type="text/javascript">
+		                  	$('#contractMessage').focus(function() {
+		                  		if ($('#contractorName').val() && $('#contractorEmail').val()) {
+			                  		$('.inputRow.contract').fadeOut();
+			                  		$('#contractorNameHolder').html($('#contractorName').val());
+			                  		$('#contractorEmailHolder').html($('#contractorEmail').val());
+			                  		$('.holderRow.contract').fadeIn();
+			                  		$('.sendRow.contract').fadeIn();
+		                  		}
+		                  	});
+
+		                  	$('.valueHolder.contract').click(function() {
+		                  		$('.holderRow.contract').fadeOut();
+								$('.inputRow.contract').fadeIn();
+		                  	});
+		                  </script>
+				    </div>
+				  </li>
+				  <li data-orbit-slide="contractors_3">
+				    <div class="row buttonContent">
+				    	<!-- contractors list button -->
+				    	<div class="small-12 columns vertWrap">
+				    		<div class="vertElement">
+				    			<a class="button callToAction"><span class="icon-eye"></span></a>
+				    			<span class="buttonLabel">view list of contractors</span>
+				    		</div>
+				    	</div>
+				    </div>
+				  </li>
+			  </ul>
+			<div class="tabs row">
+				<div class="tab small-4 columns currentTab">
+					<a href="#" data-orbit-link="contractors_1">
+						<div class="tabIcon">
+							<span class="icon-clock"></span>
+						</div>
+						<div class="tabText">
+							timescales
+						</div>
+					</a>
+				</div>
+				<div class="tab small-4 columns">
+					<a href="#" data-orbit-link="contractors_2">
+						<div class="tabIcon">
+							<span class="icon-envelope"></span>
+						</div>
+						<div class="tabText">
+							apply
+						</div>
+					</a>
+				</div>
+				<div class="tab small-4 columns">
+					<a href="#" data-orbit-link="contractors_3">
+						<div class="tabIcon">
+							<span class="icon-eye"></span>
+						</div>
+						<div class="tabText">
+							view list
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!--face panel script-->
+<script type="text/javascript">
+	$(function() {
+		$('.panelTitle').click(function() {
+			$('.panelTitle').toggleClass('activePanel');
+			$('.panelContent').toggleClass('disparu');
+		});
+	});
+</script>
+

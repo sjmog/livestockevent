@@ -25,7 +25,7 @@ $container-margin: 10px auto; //keeps the container central and the gaps between
 $tile-margin: 10px;
 $tile-height: 360px;
 $tile-width: 300px;
-$tile-padding:20px;
+$tile-padding:10px;
 
 //container queries
 
@@ -58,7 +58,7 @@ $tile-padding:20px;
 	background: blue;
 	display:inline-block;
 	float:left;
-	padding:$tile-padding;
+	padding:0;
 	margin: $tile-margin;
 	//defaults
 	height: $tile-height;
@@ -87,6 +87,12 @@ $tile-padding:20px;
 			width: 6 * $tile-width + ((2 * 6) - 2) * $tile-margin; //6 columns
 		}
 	}
+	&.tile-2-wide {
+		@media screen and (max-width: $tablet-portrait-screen-size) {
+			width: 1 * $tile-width + ((2 * 1) - 2) * $tile-margin; //1 column
+			height: 2 * $tile-height + ((2 * 2) - 2) * $tile-margin; //2 rows
+		}
+	}
 	@for $i from 1 through 6 {
 	  &.tile-#{$i}-tall { height: $i * $tile-height + ((2 * $i) - 2) * $tile-margin; }
 	}
@@ -110,6 +116,41 @@ $tile-padding:20px;
 			}
 			&.tileHidden + .tile {
 				margin-left:$tile-margin;
+			}
+		}
+	}
+	&.tile-offset-vertical-quarter {
+	margin-top: 0.3*($tile-height - $tile-margin);
+	}
+	//resizes upon media changes (2w to 2t etc)
+	&.tile-2-wide {
+		@media screen and (max-width: $tablet-portrait-screen-size) {
+			div.orbit-container {
+				height:600px !important;
+			}
+			.imgWrap img {
+				margin: 0 auto;
+			}
+			& > span {
+				bottom:660px !important;
+			}
+			.tabText {
+				display:none;
+			}
+			.tabIcon {
+				margin-top:0 !important;
+			}
+		}
+	}
+	&.tile-offset-vertical-quarter {
+		@media screen and (max-width: $tablet-landscape-screen-size) {
+			margin-top:$tile-margin !important;
+		}
+		@media screen and (max-width: $tablet-portrait-screen-size) {
+			&.tile-quarter-tall {
+				&:nth-of-type(1), &:nth-of-type(2) {
+				margin-top:$tile-margin !important;
+				}
 			}
 		}
 	}

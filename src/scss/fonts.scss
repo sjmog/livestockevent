@@ -1,0 +1,238 @@
+/* Just click to select the code */
+ 
+@charset "UTF-8";
+ 
+@font-face {
+  font-family: "untitled-font-4";
+  src:url("../fonts/untitled-font-4.eot");
+  src:url("../fonts/untitled-font-4.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/untitled-font-4.ttf") format("truetype"),
+    url("../fonts/untitled-font-4.svg#untitled-font-4") format("svg"),
+    url("../fonts/untitled-font-4.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+[data-icon]:before {
+  font-family: "untitled-font-4";
+  content: attr(data-icon);
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+ 
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-4";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+} 
+ 
+.icon-add-icon:before {
+   content: "a"; 
+} 
+ 
+.icon-award:before {
+   content: "b"; 
+} 
+ 
+.icon-calendar:before {
+   content: "c"; 
+} 
+ 
+.icon-car:before {
+   content: "d"; 
+} 
+ 
+.icon-clock:before {
+   content: "e"; 
+} 
+ 
+.icon-cow:before {
+   content: "f"; 
+} 
+ 
+.icon-envelope:before {
+   content: "h"; 
+} 
+ 
+.icon-eye:before {
+   content: "i"; 
+} 
+ 
+.icon-facebook:before {
+   content: "j"; 
+} 
+ 
+.icon-link-icon:before {
+   content: "l"; 
+} 
+ 
+.icon-linked-in:before {
+   content: "m"; 
+} 
+ 
+.icon-twitter:before {
+   content: "n"; 
+} 
+ 
+.icon-train:before {
+   content: "o"; 
+} 
+ 
+.icon-telephone:before {
+   content: "p"; 
+} 
+ 
+.icon-speechbubble:before {
+   content: "q"; 
+} 
+ 
+.icon-pound-icon:before {
+   content: "r"; 
+} 
+ 
+.icon-plane:before {
+   content: "s"; 
+} 
+ 
+.icon-location:before {
+   content: "u"; 
+} 
+ 
+.icon-cloud-upload-2:before {
+   content: "v"; 
+} 
+ 
+.icon-cloud-download-2:before {
+   content: "w"; 
+} 
+ 
+.icon-add:before {
+   content: "x"; 
+} 
+ 
+.icon-close:before {
+   content: "y"; 
+} 
+ 
+.icon-zoom-in:before {
+   content: "z"; 
+} 
+ 
+.icon-zoom-out:before {
+   content: "A"; 
+} 
+ 
+.icon-fontawesome-like:before {
+   content: "v"; 
+} 
+ 
+.icon-tick:before {
+   content: "w"; 
+} 
+ 
+.icon-cloud-upload:before {
+   content: "x"; 
+} 
+ 
+.icon-cloud-download:before {
+   content: "y"; 
+} 
+ 
+.icon-menu:before {
+   content: "z"; 
+} 
+ 
+.icon-plus-zoom:before {
+   content: "A"; 
+} 
+ 
+.icon-add:before {
+   content: "B"; 
+} 
+ 
+.icon-close:before {
+   content: "C"; 
+} 
+ 
+.icon-fontawesome-group:before {
+   content: "D"; 
+} 
+ 
+.icon-fontawesome-reload:before {
+   content: "E"; 
+} 
+ 
+.icon-address:before {
+   content: "F"; 
+} 
+ 
+.icon-info:before {
+   content: "G"; 
+} 
+ 
+.icon-paper-plane:before {
+   content: "H"; 
+} 
+ 
+.icon-right-open-big:before {
+   content: "I"; 
+} 
+ 
+.icon-right-open-mini:before {
+   content: "J"; 
+} 
+ 
+.icon-entypo-like:before {
+   content: "K"; 
+} 
+ 
+.icon-card-user:before {
+   content: "L"; 
+} 
+ 
+.icon-barclays:before {
+   content: "M"; 
+} 
+ 
+.icon-john-deere-logo:before {
+   content: "g"; 
+} 
+ 
+.icon-giltspur-logo:before {
+   content: "k"; 
+} 
+ 
+.icon-zoetis-logo:before {
+   content: "t"; 
+} 
+ 
+.icon-dairyco-logo:before {
+   content: "N"; 
+} 
+ 
+.icon-credit-card:before {
+   content: "O"; 
+} 
+ 
+.icon-phone:before {
+   content: "P"; 
+} 
+ 
+.icon-close-alt:before {
+   content: "Q"; 
+} 
+ 
+.icon-tick-alt:before {
+   content: "R"; 
+} 
+ 
+.icon-close-alt-2:before {
+   content: "S"; 
+}

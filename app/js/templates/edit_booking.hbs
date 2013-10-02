@@ -1,0 +1,85 @@
+<h2>Booking</h2>
+
+<form {{action save on="submit"}}>
+  
+  <p>
+    <label for="company_name">Company name</label><br>
+    {{view Ember.TextField valueBinding="companyName" id="company_name"}}
+  </p>
+  
+  <p>
+    <label for="company_reg">Company reg</label><br>
+    {{view Ember.TextField valueBinding="companyReg" id="company_reg"}}
+  </p>
+  
+  <p>
+    <label for="corporate_membership">Corporate membership</label><br>
+    {{view Ember.TextField valueBinding="corporateMembership" id="corporate_membership"}}
+  </p>
+  
+  <p>
+    <label for="correspondence_address">Correspondence address</label><br>
+    {{view Ember.TextField valueBinding="correspondenceAddress" id="correspondence_address"}}
+  </p>
+  
+  <p>
+    <label for="invoice_address">Invoice address</label><br>
+    {{view Ember.TextField valueBinding="invoiceAddress" id="invoice_address"}}
+  </p>
+  
+  <p>
+    <label for="tc_agreed">Tc agreed</label><br>
+    {{view Ember.TextField valueBinding="tcAgreed" id="tc_agreed"}}
+  </p>
+  
+  <p>
+    <label for="show_area">Show area</label><br>
+    {{view Ember.TextField valueBinding="showArea" id="show_area"}}
+  </p>
+  
+  <p>
+    <label for="same_as2013">Same as2013</label><br>
+    {{view Ember.TextField valueBinding="sameAs2013" id="same_as2013"}}
+  </p>
+  
+  <p>
+    <label for="stand_type">Stand type</label><br>
+    {{view Ember.TextField valueBinding="standType" id="stand_type"}}
+  </p>
+
+  <p>
+    <label for="position">Position</label><br>
+    {{view Ember.TextField valueBinding="position" id="position"}}
+  </p>
+  
+  <p>
+    <label for="frontage">Frontage</label><br>
+    {{view Ember.TextField valueBinding="frontage" id="frontage"}}
+  </p>
+  
+  <p>
+    <label for="depth">Depth</label><br>
+    {{view Ember.TextField valueBinding="depth" id="depth"}}
+  </p>
+  
+  <p>
+    <label for="deposit_paid">Deposit paid</label><br>
+    {{view Ember.TextField valueBinding="depositPaid" id="deposit_paid"}}
+  </p>
+  
+  <p>
+    <label for="total_paid">Total paid</label><br>
+    {{view Ember.TextField valueBinding="totalPaid" id="total_paid"}}
+  </p>
+  
+  <p>
+    <label for="breed_society">Breed society</label><br>
+    {{view Ember.TextField valueBinding="breedSociety" id="breed_society"}}
+  </p>
+  
+  <p>
+    <button type="submit">Save</button>
+  </p>
+
+</form>
+
